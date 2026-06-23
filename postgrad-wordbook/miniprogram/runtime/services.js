@@ -24,14 +24,16 @@ function createServices(wxApi) {
   const learningRepository = createLearningRepository(storage);
   const progressRepository = createProgressRepository(storage);
   const libraryRepository = createLibraryRepository(storage, files);
+  const readerService = createReaderService({
+    libraryRepository,
+    learningRepository,
+  });
   const libraryService = createLibraryService({
     cloud,
     files,
     repository: libraryRepository,
-  });
-  const readerService = createReaderService({
-    libraryRepository,
-    learningRepository,
+    onActivated: (libraryId) => readerService.clearLibraryCache(libraryId),
+    onRemoved: (libraryId) => readerService.clearLibraryCache(libraryId),
   });
   const player = createWxAudio(wxApi, files);
   const metadata = {

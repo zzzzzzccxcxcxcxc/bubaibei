@@ -3,7 +3,12 @@ const { sha256 } = require('../domain/sha256');
 function createWxFiles(wxApi) {
   const fs = wxApi.getFileSystemManager();
   const root = wxApi.env.USER_DATA_PATH;
-  const absolute = (relativePath) => `${root}/${relativePath}`.replace(/\/+/g, '/');
+  const absolute = (relativePath) =>
+    `${String(root).replace(/\/+$/, '')}/${String(relativePath).replace(/^\/+/, '')}`;
+  const isExternalPath = (filePath) =>
+    /^[a-z][a-z0-9+.-]*:\/\//i.test(filePath)
+    || /^[A-Za-z]:[\\/]/.test(filePath)
+    || filePath.startsWith('/');
 
   function call(method, options) {
     return new Promise((resolve, reject) => {
@@ -68,7 +73,7 @@ function createWxFiles(wxApi) {
 
     async fileSize(filePath) {
       const result = await call('stat', {
-        path: filePath.startsWith(root) ? filePath : absolute(filePath),
+        path: isExternalPath(filePath) ? filePath : absolute(filePath),
       });
       return result.stats.size;
     },

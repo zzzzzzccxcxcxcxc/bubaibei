@@ -5,14 +5,17 @@
   "scripts": {
     "test": "jest --runInBand",
     "test:watch": "jest --watch",
+    "project:validate": "node scripts/validate-project.mjs",
     "content:import:ecdict": "node scripts/import-ecdict.mjs",
     "content:validate": "node scripts/validate-content.mjs",
     "content:build": "node scripts/build-library-pack.mjs",
-    "content:verify": "node scripts/verify-pack.mjs"
+    "content:verify": "node scripts/verify-pack.mjs",
+    "cloud:prepare": "node scripts/prepare-cloud-deploy.mjs"
   },
   "devDependencies": {
     "csv-parse": "^6.2.1",
     "jest": "^30.4.2",
+    "jest-environment-jsdom": "^30.4.1",
     "miniprogram-simulate": "^1.6.1"
   }
 }

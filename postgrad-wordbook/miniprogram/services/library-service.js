@@ -1,6 +1,12 @@
 const { validateManifest } = require('../domain/validate-manifest');
 
-function createLibraryService({ cloud, files, repository }) {
+function createLibraryService({
+  cloud,
+  files,
+  repository,
+  onActivated = () => {},
+  onRemoved = () => {},
+}) {
   return {
     async listAvailableLibraries() {
       return cloud.listManifests();
@@ -29,7 +35,9 @@ function createLibraryService({ cloud, files, repository }) {
             asset.sha256
           );
         }
-        return await repository.activate(libraryId, manifest, stageDir);
+        const installed = await repository.activate(libraryId, manifest, stageDir);
+        await onActivated(libraryId, installed);
+        return installed;
       } catch (error) {
         await files.removeTree(stageDir);
         throw error;
@@ -38,6 +46,7 @@ function createLibraryService({ cloud, files, repository }) {
 
     async removeLibrary(libraryId) {
       await repository.remove(libraryId);
+      await onRemoved(libraryId);
     },
   };
 }
