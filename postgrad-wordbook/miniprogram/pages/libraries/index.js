@@ -1,7 +1,8 @@
 function buildLibraryCards({ available = [], installed = [], operations = {} }) {
-  const installedById = Object.fromEntries(
-    installed.map((library) => [library.libraryId, library])
-  );
+  const installedById = installed.reduce((result, library) => {
+    result[library.libraryId] = library;
+    return result;
+  }, {});
   return available.map((library) => {
     const local = installedById[library.libraryId];
     const operation = operations[library.libraryId];

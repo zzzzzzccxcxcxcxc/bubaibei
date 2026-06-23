@@ -32,7 +32,10 @@ const pageDefinition = {
       const libraries = await services.libraryService.listInstalledLibraries();
       const progress = await services.progressRepository.getAllProgress();
       const wordIds = Array.from(new Set(
-        libraries.flatMap((library) => library.manifest?.wordIds || [])
+        libraries.reduce(
+          (result, library) => result.concat(library.manifest?.wordIds || []),
+          []
+        )
       ));
       const counts = await services.learningRepository.getCounts(wordIds);
       this.setData({

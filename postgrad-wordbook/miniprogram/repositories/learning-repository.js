@@ -32,7 +32,7 @@ function createLearningRepository(storage) {
       const counts = { familiar: 0, review: 0, unknown: 0 };
       wordIds.forEach((wordId) => {
         const familiarity = state.words[wordId]?.familiarity;
-        if (Object.hasOwn(counts, familiarity)) {
+        if (Object.prototype.hasOwnProperty.call(counts, familiarity)) {
           counts[familiarity] += 1;
         }
       });
@@ -41,11 +41,10 @@ function createLearningRepository(storage) {
 
     async getStates(wordIds) {
       const state = await read();
-      return Object.fromEntries(
-        wordIds
-          .filter((wordId) => state.words[wordId])
-          .map((wordId) => [wordId, state.words[wordId]])
-      );
+      return wordIds.reduce((result, wordId) => {
+        if (state.words[wordId]) result[wordId] = state.words[wordId];
+        return result;
+      }, {});
     },
 
     async saveLastQuiz(result) {

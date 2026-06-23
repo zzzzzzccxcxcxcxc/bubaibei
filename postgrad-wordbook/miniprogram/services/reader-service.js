@@ -62,7 +62,10 @@ function createReaderService({ libraryRepository, learningRepository }) {
         library.wordsById.forEach((word, id) => wordsById.set(id, word));
         index.push(...library.searchIndex);
       });
-      const indexById = Object.fromEntries(index.map((item) => [item.id, item]));
+      const indexById = index.reduce((result, item) => {
+        result[item.id] = item;
+        return result;
+      }, {});
       const stateById = learningRepository
         ? await learningRepository.getStates(orderedIds)
         : {};

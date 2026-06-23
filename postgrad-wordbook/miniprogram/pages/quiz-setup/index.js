@@ -60,9 +60,13 @@ const pageDefinition = {
       words,
       count,
     });
+    const wordsById = words.reduce((result, word) => {
+      result[word.id] = word;
+      return result;
+    }, {});
     getApp().globalData.currentQuiz = {
       session,
-      wordsById: Object.fromEntries(words.map((word) => [word.id, word])),
+      wordsById,
     };
     wx.navigateTo({ url: '/pages/quiz-session/index' });
   },
