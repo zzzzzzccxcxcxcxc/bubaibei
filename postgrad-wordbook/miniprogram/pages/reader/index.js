@@ -36,8 +36,22 @@ const pageDefinition = {
   },
 
   async onLoad(options) {
-    this.libraryId = options.libraryId;
     this.mode = options.mode || 'library';
+    this.libraryIds = options.libraryIds
+      ? decodeURIComponent(options.libraryIds).split(',').filter(Boolean)
+      : [options.libraryId].filter(Boolean);
+    this.libraryId = this.libraryIds[0];
+    const initialFamiliarity = options.familiarity
+      ? decodeURIComponent(options.familiarity).split(',').filter(Boolean)
+      : [];
+    this.setData({
+      familiarity: initialFamiliarity,
+      familiarityChecks: {
+        familiar: initialFamiliarity.includes('familiar'),
+        review: initialFamiliarity.includes('review'),
+        unknown: initialFamiliarity.includes('unknown'),
+      },
+    });
     this.progressSaver = createProgressSaver(
       getApp().globalData.services.progressRepository,
       500
@@ -48,7 +62,18 @@ const pageDefinition = {
   async loadLibrary() {
     const services = getApp().globalData.services;
     try {
-      this.opened = await services.readerService.openLibrary(this.libraryId);
+      if (this.mode === 'review' || this.libraryIds.length > 1) {
+        const words = await services.readerService.queryWords({
+          libraryIds: this.libraryIds,
+          familiarity: this.data.familiarity,
+        });
+        this.opened = {
+          wordIds: words.map((word) => word.id),
+          wordsById: new Map(words.map((word) => [word.id, word])),
+        };
+      } else {
+        this.opened = await services.readerService.openLibrary(this.libraryId);
+      }
       this.activeIds = this.opened.wordIds.slice();
       const progress = this.mode === 'library'
         ? await services.progressRepository.getProgress(this.libraryId)
@@ -72,7 +97,7 @@ const pageDefinition = {
         words: wordsForWindow(this.opened, window),
         start: window.start,
         end: window.end,
-        total: this.opened.wordIds.length,
+        total: this.activeIds.length,
         stateById,
         fontSize: settings.fontSize,
         scrollIntoView: progress?.anchorWordId
@@ -107,11 +132,12 @@ const pageDefinition = {
 
   async applyFilters() {
     const words = await getApp().globalData.services.readerService.queryWords({
-      libraryIds: [this.libraryId],
+      libraryIds: this.libraryIds,
       familiarity: this.data.familiarity,
       letter: this.data.letter,
       query: this.data.query,
     });
+    words.forEach((word) => this.opened.wordsById.set(word.id, word));
     this.activeIds = words.map((word) => word.id);
     const window = getWindow({
       orderedIds: this.activeIds,
@@ -214,6 +240,21 @@ const pageDefinition = {
   async onUnload() {
     if (this.searchTimer) clearTimeout(this.searchTimer);
     await this.onHide();
+  },
+
+  async onFamiliarityChange(event) {
+    const { wordId, familiarity } = event.detail;
+    await getApp().globalData.services.learningRepository
+      .setFamiliarity(wordId, familiarity, Date.now());
+    this.setData({
+      [`stateById.${wordId}`]: {
+        familiarity,
+        updatedAt: Date.now(),
+      },
+    });
+    if (this.mode === 'review' || this.data.familiarity.length > 0) {
+      await this.applyFilters();
+    }
   },
 };
 

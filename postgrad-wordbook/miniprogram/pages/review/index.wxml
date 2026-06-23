@@ -1,0 +1,23 @@
+<view class="page">
+  <view class="section">
+    <view class="title">选择词库</view>
+    <checkbox-group bindchange="onLibrariesChange">
+      <label wx:for="{{libraries}}" wx:key="libraryId" class="option">
+        <checkbox value="{{item.libraryId}}" checked/>
+        <view><view>{{item.title}}</view><view class="meta">{{item.wordCount}} 词</view></view>
+      </label>
+    </checkbox-group>
+    <view wx:if="{{!loading && libraries.length === 0}}" class="empty">请先到词库中心下载词库。</view>
+  </view>
+
+  <view class="section">
+    <view class="title">选择熟悉度</view>
+    <checkbox-group bindchange="onFamiliarityChange">
+      <label class="option"><checkbox value="familiar" checked="{{familiarityChecks.familiar}}"/>熟悉</label>
+      <label class="option"><checkbox value="review" checked="{{familiarityChecks.review}}"/>待巩固</label>
+      <label class="option"><checkbox value="unknown" checked="{{familiarityChecks.unknown}}"/>陌生</label>
+    </checkbox-group>
+  </view>
+
+  <button class="primary" bindtap="startReview">开始连续复习</button>
+</view>

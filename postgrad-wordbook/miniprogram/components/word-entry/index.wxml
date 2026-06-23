@@ -46,8 +46,8 @@
   </view>
 
   <view class="entry__actions">
-    <button size="mini" data-state="familiar">熟悉</button>
-    <button size="mini" data-state="review">待巩固</button>
-    <button size="mini" data-state="unknown">陌生</button>
+    <button size="mini" data-state="familiar" bindtap="markFamiliarity">熟悉</button>
+    <button size="mini" data-state="review" bindtap="markFamiliarity">待巩固</button>
+    <button size="mini" data-state="unknown" bindtap="markFamiliarity">陌生</button>
   </view>
 </view>

@@ -1,0 +1,6 @@
+.page { padding: 30rpx; }
+.section { margin-bottom: 24rpx; padding: 30rpx; border-radius: 22rpx; background: #fffaf2; }
+.title { margin-bottom: 22rpx; font-family: serif; font-size: 34rpx; font-weight: 700; }
+.option { display: flex; align-items: center; gap: 16rpx; padding: 18rpx 0; border-bottom: 1rpx solid #ece2d5; }
+.meta, .empty { color: #8b8276; font-size: 24rpx; }
+.primary { background: #26352d; color: white; border-radius: 999rpx; }

@@ -56,6 +56,13 @@ const componentDefinition = {
   },
 
   methods: {
+    markFamiliarity(event) {
+      this.triggerEvent('familiaritychange', {
+        wordId: this.data.word.id,
+        familiarity: event.currentTarget.dataset.state,
+      });
+    },
+
     playAudio(event) {
       this.triggerEvent('audioplay', {
         wordId: this.data.word.id,

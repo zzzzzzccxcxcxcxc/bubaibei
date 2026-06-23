@@ -24,7 +24,8 @@
   <view wx:for="{{words}}" wx:key="id" class="entry-anchor"
     id="entry-anchor-{{item.id}}" data-word-id="{{item.id}}">
     <word-entry word="{{item}}" font-size="{{fontSize}}"
-      familiarity="{{stateById[item.id].familiarity}}"/>
+      familiarity="{{stateById[item.id].familiarity}}"
+      bind:familiaritychange="onFamiliarityChange"/>
   </view>
   <view wx:if="{{empty}}" class="end">没有符合条件的单词</view>
   <view wx:if="{{!loading && end >= total}}" class="end">本词库已阅读到底</view>
