@@ -1,0 +1,22 @@
+<view class="page">
+  <view class="section">
+    <view class="label">正文字号</view>
+    <radio-group bindchange="changeFontSize">
+      <label><radio value="small" checked="{{fontSize === 'small'}}"/>小</label>
+      <label><radio value="standard" checked="{{fontSize === 'standard'}}"/>标准</label>
+      <label><radio value="large" checked="{{fontSize === 'large'}}"/>大</label>
+    </radio-group>
+  </view>
+  <view class="section">
+    <view class="label">默认发音</view>
+    <radio-group bindchange="changeAccent">
+      <label><radio value="uk" checked="{{accent === 'uk'}}"/>英音</label>
+      <label><radio value="us" checked="{{accent === 'us'}}"/>美音</label>
+    </radio-group>
+  </view>
+  <view class="section">
+    <view class="label">音频缓存 {{cacheLabel}}</view>
+    <button size="mini" bindtap="clearAudioCache">清理音频缓存</button>
+  </view>
+  <view class="warning">学习记录只保存在本机。清理微信缓存或删除小程序后，记录可能无法恢复。</view>
+</view>

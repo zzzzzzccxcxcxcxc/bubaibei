@@ -1,0 +1,23 @@
+<view class="page">
+  <view class="intro">词库按包下载，安装后可离线阅读。更新不会覆盖你的学习标记。</view>
+  <view wx:if="{{!loading && cards.length === 0}}" class="empty">暂时无法获取词库，请稍后重试。</view>
+  <view wx:for="{{cards}}" wx:key="libraryId" class="card">
+    <view class="card__top">
+      <view>
+        <view class="card__title">{{item.title}}</view>
+        <view class="card__meta">{{item.wordCount}} 词 · {{item.sizeLabel}} · v{{item.version}}</view>
+      </view>
+      <view class="badge">{{item.state}}</view>
+    </view>
+    <view class="card__description">{{item.description}}</view>
+    <view wx:if="{{item.state === 'error'}}" class="error">{{item.errorMessage}}</view>
+    <view class="actions">
+      <button wx:if="{{item.state === 'not-installed' || item.state === 'update-available' || item.state === 'error'}}"
+        size="mini" class="primary" data-id="{{item.libraryId}}" bindtap="install">
+        {{item.state === 'update-available' ? '更新' : '下载'}}
+      </button>
+      <button wx:if="{{item.state === 'downloading'}}" size="mini" disabled>下载中 {{item.progress}}%</button>
+      <button wx:if="{{item.installedVersion}}" size="mini" plain data-id="{{item.libraryId}}" bindtap="remove">删除</button>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,12 @@
+.page { padding: 32rpx; }
+.hero { padding: 44rpx 36rpx; border-radius: 28rpx; background: #26352d; color: #fffdf7; }
+.hero__eyebrow { color: #d7c799; font-size: 24rpx; letter-spacing: 4rpx; }
+.hero__title { margin-top: 18rpx; font-family: serif; font-size: 52rpx; font-weight: 700; }
+.hero__subtitle { margin-top: 18rpx; color: #d9dfda; line-height: 1.7; }
+.primary { margin: 36rpx 0 0; background: #b63e34; color: white; border-radius: 999rpx; }
+.stats { display: flex; margin: 30rpx 0; padding: 28rpx 0; border: 1rpx solid #ded3c4; border-radius: 24rpx; background: #fffaf2; }
+.stat { flex: 1; display: flex; flex-direction: column; align-items: center; color: #746d62; }
+.stat__number { margin-bottom: 8rpx; color: #292722; font-size: 40rpx; font-weight: 700; }
+.menu { overflow: hidden; border-radius: 24rpx; background: #fffaf2; }
+.menu__item { display: flex; justify-content: space-between; padding: 32rpx; border-bottom: 1rpx solid #e8dfd2; }
+.menu__item text:last-child { color: #8b8276; font-size: 26rpx; }

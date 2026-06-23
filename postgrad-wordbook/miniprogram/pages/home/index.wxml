@@ -1,0 +1,23 @@
+<view class="page">
+  <view class="hero">
+    <view class="hero__eyebrow">2027 考研英语</view>
+    <view class="hero__title">把词书装进微信里</view>
+    <view class="hero__subtitle">连续阅读，随手标记，按自己的节奏复习。</view>
+    <button class="primary" bindtap="continueReading" disabled="{{!continueLibraryId}}">
+      {{continueLibraryId ? '继续阅读' : '先下载一本词库'}}
+    </button>
+  </view>
+
+  <view class="stats">
+    <view class="stat"><text class="stat__number">{{counts.familiar}}</text><text>熟悉</text></view>
+    <view class="stat"><text class="stat__number">{{counts.review}}</text><text>待巩固</text></view>
+    <view class="stat"><text class="stat__number">{{counts.unknown}}</text><text>陌生</text></view>
+  </view>
+
+  <view class="menu">
+    <view class="menu__item" bindtap="openLibraries"><text>词库中心</text><text>下载与更新 ›</text></view>
+    <view class="menu__item" bindtap="openReview"><text>分类复习</text><text>按熟悉度阅读 ›</text></view>
+    <view class="menu__item" bindtap="openQuiz"><text>单词测试</text><text>英选中 / 中选英 ›</text></view>
+    <view class="menu__item" bindtap="openSettings"><text>阅读设置</text><text>字号与发音 ›</text></view>
+  </view>
+</view>
