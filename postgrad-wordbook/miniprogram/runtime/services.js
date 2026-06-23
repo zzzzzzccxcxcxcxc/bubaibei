@@ -11,6 +11,7 @@ const {
   createProgressRepository,
 } = require('../repositories/progress-repository');
 const { createLibraryService } = require('../services/library-service');
+const { createReaderService } = require('../services/reader-service');
 
 function createServices(wxApi) {
   const storage = createWxStorage(wxApi);
@@ -24,6 +25,7 @@ function createServices(wxApi) {
     files,
     repository: libraryRepository,
   });
+  const readerService = createReaderService({ libraryRepository });
   return {
     cloud,
     files,
@@ -32,6 +34,7 @@ function createServices(wxApi) {
     progressRepository,
     libraryRepository,
     libraryService,
+    readerService,
   };
 }
 

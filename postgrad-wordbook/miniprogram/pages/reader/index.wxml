@@ -1,0 +1,13 @@
+<view class="toolbar">
+  <text>{{start + 1}}–{{end}} / {{total}}</text>
+  <text>字号：{{fontSize}}</text>
+</view>
+<scroll-view class="reader" scroll-y enhanced show-scrollbar="{{false}}"
+  scroll-into-view="{{scrollIntoView}}" bindscrolltolower="loadMore">
+  <view wx:if="{{loading}}" class="loading">正在打开词书…</view>
+  <word-entry wx:for="{{words}}" wx:key="id"
+    word="{{item}}"
+    font-size="{{fontSize}}"
+    familiarity="{{stateById[item.id].familiarity}}"/>
+  <view wx:if="{{!loading && end >= total}}" class="end">本词库已阅读到底</view>
+</scroll-view>

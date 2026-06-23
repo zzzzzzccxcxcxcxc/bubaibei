@@ -1,0 +1,3 @@
+.toolbar { display: flex; justify-content: space-between; padding: 18rpx 28rpx; background: #ede3d5; color: #71685d; font-size: 24rpx; }
+.reader { height: calc(100vh - 76rpx); }
+.loading, .end { padding: 60rpx 30rpx; text-align: center; color: #8b8276; }

@@ -1,0 +1,21 @@
+.entry { margin: 22rpx 24rpx; padding: 34rpx; border: 1rpx solid #dfd4c5; border-radius: 18rpx; background: #fffaf2; box-shadow: 0 8rpx 28rpx rgba(68, 52, 34, 0.05); line-height: 1.65; }
+.entry--small { font-size: 26rpx; }
+.entry--standard { font-size: 30rpx; }
+.entry--large { font-size: 34rpx; }
+.entry__head { display: flex; justify-content: space-between; align-items: baseline; }
+.entry__word { font-family: Georgia, serif; font-size: 48rpx; font-weight: 700; color: #26352d; }
+.entry__tag { margin-left: 16rpx; padding: 4rpx 12rpx; border-radius: 999rpx; background: #efe2c5; color: #795e32; font-size: 20rpx; }
+.entry__state { color: #a03931; font-size: 22rpx; }
+.phonetics { display: flex; gap: 14rpx; margin: 18rpx 0; }
+.phonetics button { margin: 0; color: #5e665f; font-size: 24rpx; }
+.section { margin-top: 24rpx; padding-top: 20rpx; border-top: 1rpx solid #e8ded0; }
+.section__title { margin-bottom: 12rpx; color: #89765d; font-size: 24rpx; font-weight: 700; letter-spacing: 2rpx; }
+.sense { display: flex; gap: 14rpx; margin-bottom: 10rpx; }
+.part { color: #a03931; font-family: Georgia, serif; font-style: italic; }
+.definition { display: block; }
+.chip { display: inline-block; margin: 6rpx 12rpx 6rpx 0; padding: 6rpx 14rpx; border-radius: 8rpx; background: #f0e9dc; }
+.relations, .translation { color: #5f584e; }
+.example { margin-bottom: 18rpx; }
+.source { margin-top: 8rpx; color: #958a7c; font-size: 22rpx; }
+.entry__actions { display: flex; gap: 12rpx; margin-top: 28rpx; }
+.entry__actions button { flex: 1; margin: 0; }

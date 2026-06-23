@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "词书阅读",
+  "usingComponents": {
+    "word-entry": "/components/word-entry/index"
+  }
+}

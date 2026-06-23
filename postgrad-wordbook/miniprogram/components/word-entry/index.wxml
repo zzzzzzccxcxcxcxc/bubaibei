@@ -1,0 +1,53 @@
+<view id="entry-{{word.id}}" class="entry entry--{{fontSize}}">
+  <view class="entry__head">
+    <view>
+      <text class="entry__word">{{word.word}}</text>
+      <text wx:if="{{word.importance}}" class="entry__tag">{{word.importance}}</text>
+    </view>
+    <text wx:if="{{familiarity}}" class="entry__state">{{familiarity}}</text>
+  </view>
+
+  <view class="phonetics">
+    <button size="mini" plain data-accent="uk" bindtap="playAudio">英 {{word.phonetics.uk}}</button>
+    <button size="mini" plain data-accent="us" bindtap="playAudio">美 {{word.phonetics.us}}</button>
+  </view>
+
+  <view wx:if="{{sections.senses}}" class="section">
+    <view wx:for="{{word.senses}}" wx:key="partOfSpeech" class="sense">
+      <text class="part">{{item.partOfSpeech}}</text>
+      <text wx:for="{{item.definitions}}" wx:for-item="definition" wx:key="*this" class="definition">{{definition}}</text>
+    </view>
+  </view>
+
+  <view wx:if="{{sections.collocations}}" class="section">
+    <view class="section__title">常用搭配</view>
+    <text wx:for="{{word.collocations}}" wx:key="*this" class="chip">{{item}}</text>
+  </view>
+
+  <view wx:if="{{sections.morphology}}" class="section">
+    <view class="section__title">词根词缀与记忆</view>
+    <view wx:for="{{word.morphology}}" wx:key="*this">{{item}}</view>
+    <view wx:for="{{word.memoryTips}}" wx:key="*this">{{item}}</view>
+  </view>
+
+  <view wx:if="{{sections.relations}}" class="section relations">
+    <view wx:if="{{presentation.synonyms}}">近义：{{presentation.synonyms}}</view>
+    <view wx:if="{{presentation.antonyms}}">反义：{{presentation.antonyms}}</view>
+    <view wx:if="{{presentation.confusables}}">易混：{{presentation.confusables}}</view>
+  </view>
+
+  <view wx:if="{{sections.examExamples}}" class="section examples">
+    <view class="section__title">真题短句</view>
+    <view wx:for="{{word.examExamples}}" wx:key="sourceId" class="example">
+      <view>{{item.text}}</view>
+      <view class="translation">{{item.translation}}</view>
+      <view class="source">{{item.year}} · {{item.questionType}} · {{item.sourceId}}</view>
+    </view>
+  </view>
+
+  <view class="entry__actions">
+    <button size="mini" data-state="familiar">熟悉</button>
+    <button size="mini" data-state="review">待巩固</button>
+    <button size="mini" data-state="unknown">陌生</button>
+  </view>
+</view>
