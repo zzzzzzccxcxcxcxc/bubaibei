@@ -10,6 +10,24 @@ const validWord = {
     uk: 'cloud://audio/abandon-uk.mp3',
     us: 'cloud://audio/abandon-us.mp3',
   },
+  audioAttribution: {
+    uk: {
+      creator: 'Example UK speaker',
+      sourceUrl: 'https://commons.wikimedia.org/wiki/File:Example-uk.ogg',
+      license: {
+        name: 'CC BY-SA 4.0',
+        url: 'https://creativecommons.org/licenses/by-sa/4.0/',
+      },
+    },
+    us: {
+      creator: 'Example US speaker',
+      sourceUrl: 'https://commons.wikimedia.org/wiki/File:Example-us.ogg',
+      license: {
+        name: 'CC BY-SA 4.0',
+        url: 'https://creativecommons.org/licenses/by-sa/4.0/',
+      },
+    },
+  },
   senses: [
     {
       partOfSpeech: 'v.',

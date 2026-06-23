@@ -14,6 +14,28 @@ function visibleSections(word = {}) {
   };
 }
 
+function buildPresentation(word = {}) {
+  const attribution = word.audioAttribution || {};
+  const credits = ['uk', 'us']
+    .map((accent) => {
+      const item = attribution[accent];
+      if (!item?.license?.name) return '';
+      return `${accent.toUpperCase()} ${item.creator || 'Commons contributor'}`
+        + ` · ${item.license.name}`;
+    })
+    .filter(Boolean);
+  return {
+    synonyms: (word.synonyms || []).join(' · '),
+    antonyms: (word.antonyms || []).join(' · '),
+    confusables: (word.confusables || []).join(' · '),
+    hasUkAudio: Boolean(word.audio?.uk),
+    hasUsAudio: Boolean(word.audio?.us),
+    audioCredit: credits.length
+      ? `发音：${[...new Set(credits)].join(' / ')}`
+      : '',
+  };
+}
+
 const componentDefinition = {
   properties: {
     word: {
@@ -22,11 +44,7 @@ const componentDefinition = {
       observer(value) {
         this.setData({
           sections: visibleSections(value),
-          presentation: {
-            synonyms: (value.synonyms || []).join(' · '),
-            antonyms: (value.antonyms || []).join(' · '),
-            confusables: (value.confusables || []).join(' · '),
-          },
+          presentation: buildPresentation(value),
         });
       },
     },
@@ -52,6 +70,9 @@ const componentDefinition = {
       synonyms: '',
       antonyms: '',
       confusables: '',
+      hasUkAudio: false,
+      hasUsAudio: false,
+      audioCredit: '',
     },
   },
 
@@ -74,4 +95,8 @@ const componentDefinition = {
 
 if (typeof Component === 'function') Component(componentDefinition);
 
-module.exports = { componentDefinition, visibleSections };
+module.exports = {
+  buildPresentation,
+  componentDefinition,
+  visibleSections,
+};

@@ -7,6 +7,8 @@
     "test:watch": "jest --watch",
     "project:validate": "node scripts/validate-project.mjs",
     "content:import:ecdict": "node scripts/import-ecdict.mjs",
+    "content:enrich:audio": "node scripts/enrich-free-dictionary.mjs",
+    "content:enrich:attribution": "node scripts/enrich-commons-attribution.mjs",
     "content:validate": "node scripts/validate-content.mjs",
     "content:build": "node scripts/build-library-pack.mjs",
     "content:verify": "node scripts/verify-pack.mjs",

@@ -23,6 +23,22 @@ function validateWord(word) {
     }
   });
 
+  for (const accent of ['uk', 'us']) {
+    if (!word?.audio?.[accent]) continue;
+    const attribution = word?.audioAttribution?.[accent];
+    if (
+      !attribution?.creator
+      || !attribution?.sourceUrl
+      || !attribution?.license?.name
+      || !attribution?.license?.url
+    ) {
+      errors.push(
+        `audioAttribution.${accent} requires creator, sourceUrl, `
+        + 'license.name, license.url'
+      );
+    }
+  }
+
   if (!Array.isArray(word?.sources) || word.sources.length === 0) {
     errors.push('sources requires at least one item');
   }

@@ -8,8 +8,15 @@
   </view>
 
   <view class="phonetics">
-    <button size="mini" plain data-accent="uk" bindtap="playAudio">英 {{word.phonetics.uk}}</button>
-    <button size="mini" plain data-accent="us" bindtap="playAudio">美 {{word.phonetics.us}}</button>
+    <button wx:if="{{presentation.hasUkAudio}}" size="mini" plain
+      data-accent="uk" bindtap="playAudio">英 {{word.phonetics.uk}}</button>
+    <text wx:else class="phonetic-text">英 {{word.phonetics.uk || '暂无'}}</text>
+    <button wx:if="{{presentation.hasUsAudio}}" size="mini" plain
+      data-accent="us" bindtap="playAudio">美 {{word.phonetics.us}}</button>
+    <text wx:else class="phonetic-text">美 {{word.phonetics.us || '暂无'}}</text>
+  </view>
+  <view wx:if="{{presentation.audioCredit}}" class="audio-credit">
+    {{presentation.audioCredit}}
   </view>
 
   <view wx:if="{{sections.senses}}" class="section">

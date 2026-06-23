@@ -26,6 +26,20 @@ test('rejects a word without senses or source records', () => {
   });
 });
 
+test('rejects pronunciation audio without complete attribution', () => {
+  const word = structuredClone(validWord);
+  word.audio = { uk: 'audio/word_abandon-uk.mp3', us: '' };
+  word.audioAttribution = {
+    uk: {
+      sourceUrl: 'https://commons.wikimedia.org/example',
+      license: { name: 'CC BY-SA 3.0' },
+    },
+  };
+  expect(validateWord(word).errors).toContain(
+    'audioAttribution.uk requires creator, sourceUrl, license.name, license.url'
+  );
+});
+
 test('accepts a versioned library manifest', () => {
   expect(validateManifest(validManifest)).toEqual({ ok: true, errors: [] });
 });

@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {
   DIST_DIR,
+  ROOT,
   loadAndValidateSources,
   sha256,
   stableJson,
@@ -18,6 +19,23 @@ fs.mkdirSync(stageDir, { recursive: true });
 function writeAsset(libraryDir, libraryId, version, name, value) {
   const content = Buffer.from(stableJson(value));
   fs.writeFileSync(path.join(libraryDir, name), content);
+  return {
+    name,
+    fileId: `cloud://libraries/${libraryId}/${version}/${name}`,
+    bytes: content.byteLength,
+    sha256: sha256(content),
+  };
+}
+
+function copyBinaryAsset(libraryDir, libraryId, version, name) {
+  const source = path.join(ROOT, 'content', name);
+  if (!fs.existsSync(source)) {
+    throw new Error(`MISSING_BINARY_ASSET:${name}`);
+  }
+  const destination = path.join(libraryDir, name);
+  fs.mkdirSync(path.dirname(destination), { recursive: true });
+  fs.copyFileSync(source, destination);
+  const content = fs.readFileSync(destination);
   return {
     name,
     fileId: `cloud://libraries/${libraryId}/${version}/${name}`,
@@ -69,6 +87,20 @@ const outputLibraries = libraries.map((library) => {
     'order.json',
     library.wordIds
   ));
+  const audioNames = [...new Set(
+    orderedWords.flatMap((word) => [
+      word.audio?.uk,
+      word.audio?.us,
+    ]).filter(Boolean)
+  )].sort();
+  audioNames.forEach((name) => {
+    assets.push(copyBinaryAsset(
+      libraryDir,
+      library.libraryId,
+      library.version,
+      name
+    ));
+  });
 
   const bytes = assets.reduce((sum, asset) => sum + asset.bytes, 0);
   const packageDigest = sha256(Buffer.from(assets.map((asset) => asset.sha256).join('')));

@@ -42,8 +42,12 @@ function createServices(wxApi) {
       for (const library of installed) {
         if (!library.manifest?.wordIds?.includes(wordId)) continue;
         const opened = await readerService.openLibrary(library.libraryId);
-        const fileId = opened.wordsById.get(wordId)?.audio?.[accent];
-        if (fileId) return fileId;
+        const audioName = opened.wordsById.get(wordId)?.audio?.[accent];
+        if (!audioName) continue;
+        const asset = library.manifest.assets?.find(
+          (item) => item.name === audioName
+        );
+        if (asset?.fileId) return asset.fileId;
       }
       return '';
     },

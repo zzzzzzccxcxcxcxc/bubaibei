@@ -50,3 +50,65 @@ test('libraries disclose their non-official source basis and order every word', 
   expect(library.wordIds).toHaveLength(words.length);
   expect(new Set(library.wordIds).size).toBe(words.length);
 });
+
+test('v1 content includes auditable open UK and US pronunciation coverage', () => {
+  const words = readJson(wordsPath);
+  const uk = words.filter((word) => word.audio.uk);
+  const us = words.filter((word) => word.audio.us);
+  const both = words.filter((word) => word.audio.uk && word.audio.us);
+
+  expect(uk.length).toBeGreaterThanOrEqual(20);
+  expect(us.length).toBeGreaterThanOrEqual(100);
+  expect(both.length).toBeGreaterThanOrEqual(10);
+  expect([...uk, ...us].every((word) =>
+    word.sources.some((source) =>
+      source.sourceId === 'free-dictionary-api-2026-06-23'
+    )
+  )).toBe(true);
+});
+
+test('every packaged pronunciation has creator and license attribution', () => {
+  const words = readJson(wordsPath);
+  const attributions = readJson(path.join(
+    ROOT,
+    'content/source/audio-attribution.json'
+  ));
+  const audioEntries = words.flatMap((word) =>
+    ['uk', 'us']
+      .filter((accent) => word.audio[accent])
+      .map((accent) => ({
+        key: `${word.id}:${accent}`,
+        attribution: word.audioAttribution[accent],
+      }))
+  );
+
+  expect(attributions).toHaveLength(audioEntries.length);
+  expect(audioEntries.every(({ attribution }) =>
+    attribution.creator
+    && attribution.sourceUrl
+    && attribution.license?.name
+    && attribution.license?.url
+  )).toBe(true);
+});
+
+test('public-domain and CC0 pronunciation labels use matching legal URLs', () => {
+  const attributions = readJson(path.join(
+    ROOT,
+    'content/source/audio-attribution.json'
+  ));
+  const publicDomain = attributions.filter(
+    (item) => item.license.name === 'Public domain'
+  );
+  const cc0 = attributions.filter((item) => item.license.name === 'CC0');
+
+  expect(publicDomain.length).toBeGreaterThan(0);
+  expect(publicDomain.every((item) =>
+    item.license.url === 'https://commons.wikimedia.org/wiki/Commons:Public_domain'
+  )).toBe(true);
+  expect(cc0.length).toBeGreaterThan(0);
+  expect(cc0.every((item) =>
+    item.license.url.startsWith(
+      'https://creativecommons.org/publicdomain/zero/1.0/'
+    )
+  )).toBe(true);
+});

@@ -8,6 +8,8 @@
 .entry__state { color: #a03931; font-size: 22rpx; }
 .phonetics { display: flex; gap: 14rpx; margin: 18rpx 0; }
 .phonetics button { margin: 0; color: #5e665f; font-size: 24rpx; }
+.phonetic-text { padding: 8rpx 12rpx; color: #6f746f; font-size: 24rpx; }
+.audio-credit { margin-top: -8rpx; color: #9a9084; font-size: 20rpx; }
 .section { margin-top: 24rpx; padding-top: 20rpx; border-top: 1rpx solid #e8ded0; }
 .section__title { margin-bottom: 12rpx; color: #89765d; font-size: 24rpx; font-weight: 700; letter-spacing: 2rpx; }
 .sense { display: flex; gap: 14rpx; margin-bottom: 10rpx; }

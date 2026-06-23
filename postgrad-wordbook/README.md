@@ -8,7 +8,8 @@
 - `2027 备考高频核心（400词）`
 - 内容依据 ECDICT 固定提交 `bc015ed2` 的 `ky` 标签和公开语料频次筛选。
 - 这两个词库不是尚未发布的“2027 官方大纲”。来源和许可见 [docs/content-sources.md](docs/content-sources.md)。
-- ECDICT 首包提供主音标、中文释义和词形变化；真题短句、词根记忆和双口音音频必须经过单独来源审核后再补充，空栏目在界面中自动隐藏。
+- ECDICT 首包提供主音标、中文释义和词形变化；另打包 404 条经 Wikimedia Commons API 复核署名和许可的开放发音，覆盖 64 个英音、340 个美音，其中 48 个词双音齐全。
+- 当前不含真题短句；词根记忆、搭配等尚无可靠来源的栏目保持为空，并由界面自动隐藏。
 
 ## 目录
 
@@ -48,6 +49,8 @@ ECDICT CSV 不提交到本仓库。固定来源和许可证记录在 `docs/conte
 
 ```powershell
 npm run content:import:ecdict -- <path-to-ecdict.csv>
+npm run content:enrich:audio
+npm run content:enrich:attribution
 npm run content:validate
 npm run content:build
 npm run content:verify
@@ -76,9 +79,9 @@ npm run cloud:prepare
 
 ## 音频
 
-客户端已实现英音、美音独立播放、30 MB LRU 缓存、离线回放和错误降级。词条的 `audio.uk` / `audio.us` 必须填写为已获许可且已上传到云存储的 fileID。
+客户端已实现英音、美音独立播放、30 MB LRU 缓存、离线回放和错误降级。构建器会把 `content/audio/` 的开放音频加入词库包，云部署准备脚本再生成真实 fileID。
 
-当前 ECDICT 数据不包含音频，因此正式体验前必须补充可审计的双口音音频映射，并在 `docs/content-sources.md` 登记许可、作者和来源。不得直接使用商业词典或来源不明的 TTS/抓取音频。
+音频来自 Free Dictionary API 指向的 Wikimedia Commons 文件。只有来源 URL 明确标注 UK/US 的音频才会归入口音；逐条作者、页面与许可证保存在 `content/source/audio-attribution.json`，对应许可证全文或规范链接保存在 `THIRD_PARTY_LICENSES/`。
 
 ## 数据行为
 

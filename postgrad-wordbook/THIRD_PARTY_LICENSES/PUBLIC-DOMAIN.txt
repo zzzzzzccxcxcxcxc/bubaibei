@@ -1,0 +1,7 @@
+Public-domain pronunciation recordings
+
+The individual source page and creator information for each recording are
+listed in content/source/audio-attribution.json.
+
+Wikimedia Commons public-domain guidance:
+https://commons.wikimedia.org/wiki/Commons:Public_domain
