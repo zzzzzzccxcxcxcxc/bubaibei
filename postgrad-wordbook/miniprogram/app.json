@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/libraries/index",
+    "pages/reader/index",
+    "pages/review/index",
+    "pages/quiz-setup/index",
+    "pages/quiz-session/index",
+    "pages/quiz-result/index",
+    "pages/settings/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "考研英语词书",
+    "navigationBarBackgroundColor": "#f7f1e7",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f7f1e7",
+    "backgroundTextStyle": "dark"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

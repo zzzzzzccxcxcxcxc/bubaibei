@@ -1,0 +1,16 @@
+{
+  "name": "postgrad-wordbook",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "jest --runInBand",
+    "test:watch": "jest --watch",
+    "content:validate": "node scripts/validate-content.mjs",
+    "content:build": "node scripts/build-library-pack.mjs",
+    "content:verify": "node scripts/verify-pack.mjs"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "miniprogram-simulate": "^1.6.1"
+  }
+}
