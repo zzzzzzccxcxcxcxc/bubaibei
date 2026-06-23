@@ -23,4 +23,8 @@ App({
       });
     }
   },
+
+  onHide() {
+    this.globalData.services?.audioCacheService?.stop();
+  },
 });

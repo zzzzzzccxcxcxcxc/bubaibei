@@ -256,6 +256,24 @@ const pageDefinition = {
       await this.applyFilters();
     }
   },
+
+  async onAudioPlay(event) {
+    const { wordId, accent } = event.detail;
+    try {
+      await getApp().globalData.services.audioCacheService.play(wordId, accent);
+    } catch (error) {
+      console.error('Audio playback failed', error);
+      const messages = {
+        AUDIO_NETWORK_ERROR: '网络不可用，未缓存该发音',
+        AUDIO_SOURCE_UNAVAILABLE: '该发音暂不可用',
+        AUDIO_STORAGE_FULL: '本地空间不足，请清理音频缓存',
+      };
+      wx.showToast({
+        title: messages[error.code] || '发音播放失败',
+        icon: 'none',
+      });
+    }
+  },
 };
 
 if (typeof Page === 'function') Page(pageDefinition);

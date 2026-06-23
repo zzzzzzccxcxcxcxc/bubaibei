@@ -13,7 +13,13 @@ const pageDefinition = {
       fontSize: 'standard',
       accent: 'uk',
     });
-    this.setData(settings);
+    const stats = services.audioCacheService
+      ? await services.audioCacheService.getCacheStats()
+      : { bytes: 0 };
+    this.setData({
+      ...settings,
+      cacheLabel: `${(stats.bytes / 1024 / 1024).toFixed(1)} MB`,
+    });
   },
 
   async changeFontSize(event) {

@@ -1,3 +1,4 @@
+const { createWxAudio } = require('../adapters/audio');
 const { createWxCloud } = require('../adapters/cloud');
 const { createWxFiles } = require('../adapters/files');
 const { createWxStorage } = require('../adapters/storage');
@@ -12,6 +13,9 @@ const {
 } = require('../repositories/progress-repository');
 const { createLibraryService } = require('../services/library-service');
 const { createReaderService } = require('../services/reader-service');
+const {
+  createAudioCacheService,
+} = require('../services/audio-cache-service');
 
 function createServices(wxApi) {
   const storage = createWxStorage(wxApi);
@@ -29,6 +33,26 @@ function createServices(wxApi) {
     libraryRepository,
     learningRepository,
   });
+  const player = createWxAudio(wxApi, files);
+  const metadata = {
+    async getAudioFileId(wordId, accent) {
+      const installed = await libraryService.listInstalledLibraries();
+      for (const library of installed) {
+        if (!library.manifest?.wordIds?.includes(wordId)) continue;
+        const opened = await readerService.openLibrary(library.libraryId);
+        const fileId = opened.wordsById.get(wordId)?.audio?.[accent];
+        if (fileId) return fileId;
+      }
+      return '';
+    },
+  };
+  const audioCacheService = createAudioCacheService({
+    cloud,
+    files,
+    metadata,
+    player,
+    storage,
+  });
   return {
     cloud,
     files,
@@ -38,6 +62,7 @@ function createServices(wxApi) {
     libraryRepository,
     libraryService,
     readerService,
+    audioCacheService,
   };
 }
 

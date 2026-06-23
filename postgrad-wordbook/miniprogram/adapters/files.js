@@ -57,6 +57,39 @@ function createWxFiles(wxApi) {
     readJson,
     writeJson,
 
+    async exists(relativePath) {
+      try {
+        await call('access', { path: absolute(relativePath) });
+        return true;
+      } catch (_error) {
+        return false;
+      }
+    },
+
+    async fileSize(filePath) {
+      const result = await call('stat', {
+        path: filePath.startsWith(root) ? filePath : absolute(filePath),
+      });
+      return result.stats.size;
+    },
+
+    async copy(sourcePath, destination) {
+      const parent = destination.split('/').slice(0, -1).join('/');
+      if (parent) await mkdir(parent);
+      await call('copyFile', {
+        srcPath: sourcePath,
+        destPath: absolute(destination),
+      });
+    },
+
+    async removeFile(relativePath) {
+      try {
+        await call('unlink', { filePath: absolute(relativePath) });
+      } catch (error) {
+        if (!error?.errMsg?.includes('no such file')) throw error;
+      }
+    },
+
     async move(fromRelativePath, toRelativePath) {
       const parent = toRelativePath.split('/').slice(0, -1).join('/');
       if (parent) await mkdir(parent);
