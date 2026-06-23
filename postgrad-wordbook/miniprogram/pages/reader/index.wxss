@@ -1,3 +1,11 @@
 .toolbar { display: flex; justify-content: space-between; padding: 18rpx 28rpx; background: #ede3d5; color: #71685d; font-size: 24rpx; }
-.reader { height: calc(100vh - 76rpx); }
+.filters { padding: 16rpx 24rpx; background: #fffaf2; border-bottom: 1rpx solid #ded3c4; }
+.search-row { display: flex; align-items: center; gap: 12rpx; }
+.search-row input { flex: 1; padding: 14rpx 20rpx; border-radius: 999rpx; background: #eee6da; }
+.search-row button { margin: 0; }
+.letters { margin-top: 14rpx; white-space: nowrap; }
+.letter { display: inline-block; padding: 8rpx 13rpx; color: #756b5f; }
+.letter--active { border-radius: 999rpx; background: #26352d; color: white; }
+.familiarity-filter { display: flex; gap: 20rpx; margin-top: 12rpx; font-size: 24rpx; }
+.reader { height: calc(100vh - 270rpx); }
 .loading, .end { padding: 60rpx 30rpx; text-align: center; color: #8b8276; }

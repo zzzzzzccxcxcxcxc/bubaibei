@@ -8,7 +8,9 @@ function getWindow({ orderedIds, start, size }) {
   };
 }
 
-function createReaderService({ libraryRepository }) {
+const { filterOrderedIds, searchIndex } = require('../domain/search');
+
+function createReaderService({ libraryRepository, learningRepository }) {
   const cache = new Map();
 
   async function openLibrary(libraryId) {
@@ -43,9 +45,37 @@ function createReaderService({ libraryRepository }) {
       cache.delete(libraryId);
     },
 
-    async queryWords({ libraryIds }) {
+    async queryWords({
+      libraryIds,
+      familiarity = [],
+      letter = '',
+      query = '',
+    }) {
       const opened = await Promise.all(libraryIds.map(openLibrary));
-      return opened.flatMap((library) => library.words);
+      const orderedIds = [];
+      const wordsById = new Map();
+      const index = [];
+      opened.forEach((library) => {
+        library.wordIds.forEach((id) => {
+          if (!wordsById.has(id)) orderedIds.push(id);
+        });
+        library.wordsById.forEach((word, id) => wordsById.set(id, word));
+        index.push(...library.searchIndex);
+      });
+      const indexById = Object.fromEntries(index.map((item) => [item.id, item]));
+      const stateById = learningRepository
+        ? await learningRepository.getStates(orderedIds)
+        : {};
+      const matches = query ? searchIndex(index, query) : null;
+      const ids = filterOrderedIds({
+        orderedIds,
+        indexById,
+        stateById,
+        familiarity,
+        letter,
+        matchedIds: matches ? new Set(matches.map((item) => item.id)) : null,
+      });
+      return ids.map((id) => wordsById.get(id)).filter(Boolean);
     },
   };
 }

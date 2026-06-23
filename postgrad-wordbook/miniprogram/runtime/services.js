@@ -25,7 +25,10 @@ function createServices(wxApi) {
     files,
     repository: libraryRepository,
   });
-  const readerService = createReaderService({ libraryRepository });
+  const readerService = createReaderService({
+    libraryRepository,
+    learningRepository,
+  });
   return {
     cloud,
     files,

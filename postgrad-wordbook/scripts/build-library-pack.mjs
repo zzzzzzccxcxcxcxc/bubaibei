@@ -52,7 +52,12 @@ const outputLibraries = libraries.map((library) => {
       id: word.id,
       word: word.word,
       initial: word.word[0].toUpperCase(),
-      senseKeywords: word.senses.flatMap((sense) => sense.definitions),
+      senseKeywords: [
+        ...word.senses.flatMap((sense) => sense.definitions),
+        ...(word.synonyms || []),
+        ...(word.antonyms || []),
+        ...(word.confusables || []),
+      ],
       partOfSpeech: word.senses[0]?.partOfSpeech || '',
       importance: word.importance || '',
     }))
