@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WordEntry",
+  "type": "object",
+  "required": ["id", "word", "senses", "sources"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^word_[a-z0-9-]+$" },
+    "word": { "type": "string", "minLength": 1 },
+    "senses": { "type": "array", "minItems": 1 },
+    "sources": { "type": "array", "minItems": 1 }
+  },
+  "additionalProperties": true
+}

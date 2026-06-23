@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SourceLibrary",
+  "type": "object",
+  "required": ["libraryId", "title", "version", "formatVersion", "updatedAt", "wordIds"],
+  "properties": {
+    "libraryId": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+    "formatVersion": { "type": "integer", "minimum": 1 },
+    "wordIds": { "type": "array", "minItems": 1, "uniqueItems": true }
+  },
+  "additionalProperties": true
+}

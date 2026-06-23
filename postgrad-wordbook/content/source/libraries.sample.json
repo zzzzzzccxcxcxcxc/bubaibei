@@ -1,0 +1,20 @@
+[
+  {
+    "libraryId": "core",
+    "title": "考研英语核心词汇（开发样本）",
+    "description": "用于验证小程序数据流程的小型开放样本。",
+    "version": "1.0.0",
+    "formatVersion": 1,
+    "updatedAt": "2026-06-23T00:00:00.000Z",
+    "wordIds": [
+      "word_abandon",
+      "word_ability",
+      "word_basic",
+      "word_capacity",
+      "word_desert",
+      "word_establish",
+      "word_fundamental",
+      "word_retain"
+    ]
+  }
+]
