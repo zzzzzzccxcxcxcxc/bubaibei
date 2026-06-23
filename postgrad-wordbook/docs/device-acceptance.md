@@ -22,8 +22,8 @@
 | Windows 微信开发者工具安装 | 通过 | `Tencent.WeixinDevTools 2.01.2510290` |
 | CLI 启动 IDE 服务 | 通过 | 本机端口 `9420` |
 | CLI 打开项目 | 通过 | 项目可由开发者工具载入 |
-| 微信账号登录 | 待执行 | `islogin` 返回 `login: false` |
-| 生成预览二维码 | 阻塞 | 当前 `project.config.json` 使用 `touristappid`，CLI 返回“AppID 不合法” |
+| 微信账号登录 | 通过 | `islogin` 返回 `login: true` |
+| 生成预览二维码 | 阻塞 | 2026-06-23 19:57 再次执行 CLI 预览；当前 `project.config.json` 使用 `touristappid`，返回“AppID 不合法” |
 | 上传体验版 | 阻塞 | 需要真实 AppID、登录状态和云环境 |
 
 项目客户端不依赖小程序 npm 包，因此不需要在开发者工具中执行“构建 npm”。
