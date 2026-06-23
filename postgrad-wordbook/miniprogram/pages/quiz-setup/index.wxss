@@ -1,0 +1,7 @@
+.page { padding: 30rpx; }
+.section { margin-bottom: 24rpx; padding: 30rpx; border-radius: 22rpx; background: #fffaf2; }
+.title { margin-bottom: 20rpx; font-family: serif; font-size: 34rpx; font-weight: 700; }
+.option { display: flex; align-items: center; gap: 12rpx; padding: 16rpx 0; }
+.picker { padding: 18rpx; border-radius: 12rpx; background: #eee5d8; }
+.hint { color: #8b8276; }
+.primary { background: #26352d; color: white; border-radius: 999rpx; }

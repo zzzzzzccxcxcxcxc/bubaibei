@@ -1,0 +1,8 @@
+.page { min-height: 100vh; padding: 36rpx; box-sizing: border-box; }
+.progress { color: #81776a; text-align: center; }
+.prompt { margin: 80rpx 0 60rpx; font-family: Georgia, serif; font-size: 58rpx; font-weight: 700; text-align: center; }
+.options { display: grid; gap: 20rpx; }
+.option { padding: 24rpx; background: #fffaf2; color: #292722; border: 1rpx solid #ded3c4; }
+.option--correct { background: #dce9df; border-color: #51725a; }
+.option--wrong { background: #f2d9d5; border-color: #a9473f; }
+.next { margin-top: 48rpx; background: #26352d; color: white; border-radius: 999rpx; }

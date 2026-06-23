@@ -1,0 +1,14 @@
+<view class="page" wx:if="{{question}}">
+  <view class="progress">{{progressText}}</view>
+  <view class="prompt">{{question.prompt}}</view>
+  <view class="options">
+    <button wx:for="{{question.options}}" wx:key="id"
+      class="option option--{{item.state}}"
+      data-id="{{item.id}}" bindtap="selectOption">
+      {{item.label}}
+    </button>
+  </view>
+  <button class="next" bindtap="nextQuestion">
+    {{index + 1 === total ? '查看结果' : '下一题'}}
+  </button>
+</view>

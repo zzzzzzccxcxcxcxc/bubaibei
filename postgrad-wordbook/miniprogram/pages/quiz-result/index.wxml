@@ -1,0 +1,22 @@
+<view class="page" wx:if="{{result}}">
+  <view class="score">
+    <view class="score__number">{{result.accuracy}}%</view>
+    <view>{{result.correct}} / {{result.total}} 题正确</view>
+  </view>
+
+  <view class="section">
+    <view class="title">错词 {{result.wrongWordIds.length}}</view>
+    <view wx:if="{{wrongWords.length === 0}}" class="empty">本轮没有错词。</view>
+    <view wx:for="{{wrongWords}}" wx:key="id" class="wrong-word">
+      <text>{{item.word}}</text>
+      <text>{{item.senses[0].definitions[0]}}</text>
+    </view>
+    <view wx:if="{{wrongWords.length}}" class="actions">
+      <button size="mini" data-state="review" bindtap="markWrongWords">全部标为待巩固</button>
+      <button size="mini" data-state="unknown" bindtap="markWrongWords">全部标为陌生</button>
+    </view>
+  </view>
+
+  <button class="primary" bindtap="restart">再测一组</button>
+  <button plain bindtap="goHome">返回首页</button>
+</view>

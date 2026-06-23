@@ -1,0 +1,10 @@
+.page { padding: 34rpx; }
+.score { padding: 50rpx; border-radius: 28rpx; background: #26352d; color: white; text-align: center; }
+.score__number { margin-bottom: 12rpx; font-family: Georgia, serif; font-size: 88rpx; font-weight: 700; }
+.section { margin: 28rpx 0; padding: 30rpx; border-radius: 22rpx; background: #fffaf2; }
+.title { margin-bottom: 20rpx; font-family: serif; font-size: 34rpx; font-weight: 700; }
+.wrong-word { display: flex; justify-content: space-between; padding: 16rpx 0; border-bottom: 1rpx solid #e9dfd2; }
+.wrong-word text:last-child, .empty { color: #81776a; }
+.actions { display: flex; gap: 12rpx; margin-top: 24rpx; }
+.actions button { margin: 0; }
+.primary { background: #b63e34; color: white; border-radius: 999rpx; }

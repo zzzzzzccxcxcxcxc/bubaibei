@@ -1,0 +1,37 @@
+<view class="page">
+  <view class="section">
+    <view class="title">测试方式</view>
+    <radio-group bindchange="onTypeChange">
+      <label class="option"><radio value="en-to-zh" checked="{{type === 'en-to-zh'}}"/>看英文选中文</label>
+      <label class="option"><radio value="zh-to-en" checked="{{type === 'zh-to-en'}}"/>看中文选英文</label>
+    </radio-group>
+  </view>
+
+  <view class="section">
+    <view class="title">词库范围</view>
+    <checkbox-group bindchange="onLibrariesChange">
+      <label wx:for="{{libraries}}" wx:key="libraryId" class="option">
+        <checkbox value="{{item.libraryId}}" checked/>{{item.title}}
+      </label>
+    </checkbox-group>
+    <view wx:if="{{!loading && libraries.length === 0}}" class="hint">请先下载词库。</view>
+  </view>
+
+  <view class="section">
+    <view class="title">熟悉度范围（不选则全部）</view>
+    <checkbox-group bindchange="onFamiliarityChange">
+      <label class="option"><checkbox value="familiar"/>熟悉</label>
+      <label class="option"><checkbox value="review"/>待巩固</label>
+      <label class="option"><checkbox value="unknown"/>陌生</label>
+    </checkbox-group>
+  </view>
+
+  <view class="section">
+    <view class="title">题量</view>
+    <picker mode="selector" range="{{questionCounts}}" value="{{countIndex}}" bindchange="onCountChange">
+      <view class="picker">{{questionCounts[countIndex]}} 题 ›</view>
+    </picker>
+  </view>
+
+  <button class="primary" bindtap="startQuiz">开始测试</button>
+</view>

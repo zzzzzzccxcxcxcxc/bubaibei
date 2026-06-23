@@ -5,6 +5,8 @@ const { createMigrationService } = require('./services/migration-service');
 App({
   globalData: {
     services: null,
+    currentQuiz: null,
+    quizResult: null,
   },
 
   async onLaunch() {
