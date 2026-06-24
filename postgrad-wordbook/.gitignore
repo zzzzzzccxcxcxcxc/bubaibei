@@ -4,3 +4,8 @@ content/dist/
 deployment/
 coverage/
 *.log
+web/dist/
+web/.tsbuild/
+web/*.tsbuildinfo
+web/vite.config.js
+web/vite.config.d.ts
