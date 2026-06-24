@@ -25,8 +25,6 @@ async function readJson<T>(filePath: string): Promise<T> {
 }
 
 async function expectAssetFileToExist(library: ContentLibrary, assetName: string) {
-  expect(library.assets.some((asset) => asset.name === assetName)).toBe(true);
-
   const assetPath = path.join(
     publicContentDir,
     library.libraryId,
@@ -57,9 +55,14 @@ describe('public content files', () => {
     expect(manifest.libraries.some((library) => library.libraryId === 'core-2027-prep')).toBe(true);
 
     for (const library of manifest.libraries) {
-      await expectAssetFileToExist(library, 'words-0001.json');
-      await expectAssetFileToExist(library, 'search-index.json');
-      await expectAssetFileToExist(library, 'order.json');
+      expect(library.assets.length).toBeGreaterThanOrEqual(3);
+      expect(library.assets.some((asset) => asset.name === 'words-0001.json')).toBe(true);
+      expect(library.assets.some((asset) => asset.name === 'search-index.json')).toBe(true);
+      expect(library.assets.some((asset) => asset.name === 'order.json')).toBe(true);
+
+      for (const asset of library.assets) {
+        await expectAssetFileToExist(library, asset.name);
+      }
     }
   });
 });
