@@ -5,6 +5,7 @@ deployment/
 coverage/
 *.log
 web/dist/
+web/public/content/
 web/.tsbuild/
 web/*.tsbuildinfo
 web/vite.config.js
