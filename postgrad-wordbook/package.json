@@ -15,8 +15,8 @@
     "cloud:prepare": "node scripts/prepare-cloud-deploy.mjs",
     "web:dev": "npm --prefix web run dev",
     "web:content": "node scripts/prepare-web-content.mjs",
-    "web:build": "npm run web:content && npm --prefix web run build",
-    "web:test": "npm --prefix web run test:run",
+    "web:build": "npm run content:build && npm run web:content && npm --prefix web run build",
+    "web:test": "npm run content:build && npm run web:content && npm --prefix web run test:run",
     "web:preview": "npm --prefix web run preview"
   },
   "devDependencies": {
