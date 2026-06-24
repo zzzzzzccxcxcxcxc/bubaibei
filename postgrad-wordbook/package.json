@@ -12,7 +12,11 @@
     "content:validate": "node scripts/validate-content.mjs",
     "content:build": "node scripts/build-library-pack.mjs",
     "content:verify": "node scripts/verify-pack.mjs",
-    "cloud:prepare": "node scripts/prepare-cloud-deploy.mjs"
+    "cloud:prepare": "node scripts/prepare-cloud-deploy.mjs",
+    "web:dev": "npm --prefix web run dev",
+    "web:build": "npm --prefix web run build",
+    "web:test": "npm --prefix web run test:run",
+    "web:preview": "npm --prefix web run preview"
   },
   "devDependencies": {
     "csv-parse": "^6.2.1",
