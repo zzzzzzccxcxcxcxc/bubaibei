@@ -8,8 +8,16 @@ if (!fs.existsSync(manifestPath)) {
 }
 
 const publicContentDir = path.join(ROOT, 'web', 'public', 'content');
-fs.rmSync(publicContentDir, { recursive: true, force: true });
+const stageDir = path.join(ROOT, 'web', 'public', '.content-stage');
+const oldDir = path.join(ROOT, 'web', 'public', '.content-old');
+fs.rmSync(stageDir, { recursive: true, force: true });
+fs.rmSync(oldDir, { recursive: true, force: true });
 fs.mkdirSync(path.dirname(publicContentDir), { recursive: true });
-fs.cpSync(DIST_DIR, publicContentDir, { recursive: true });
+fs.cpSync(DIST_DIR, stageDir, { recursive: true });
+if (fs.existsSync(publicContentDir)) {
+  fs.renameSync(publicContentDir, oldDir);
+}
+fs.renameSync(stageDir, publicContentDir);
+fs.rmSync(oldDir, { recursive: true, force: true });
 
 console.log(`Prepared PWA content at ${path.relative(ROOT, publicContentDir)}.`);

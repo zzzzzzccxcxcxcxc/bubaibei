@@ -6,6 +6,8 @@ coverage/
 *.log
 web/dist/
 web/public/content/
+web/public/.content-stage/
+web/public/.content-old/
 web/.tsbuild/
 web/*.tsbuildinfo
 web/vite.config.js
