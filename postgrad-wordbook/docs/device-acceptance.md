@@ -2,7 +2,7 @@
 
 ## 自动化与静态检查
 
-检查日期：2026-06-23
+检查日期：2026-06-24
 
 | 检查项 | 结果 | 证据 |
 |---|---|---|
@@ -12,18 +12,20 @@
 | 领域、服务、组件和烟雾测试 | 通过 | `npm test` |
 | 词条组件模拟渲染 | 通过 | `tests/word-entry-render.test.js` |
 | 安装→阅读→标记→更新数据保持 | 通过 | `tests/smoke.test.js` |
+| 生产云分发目录准备 | 通过 | `$env:CLOUD_FILE_PREFIX='cloud://verification-env.verification-bucket'; npm run cloud:prepare` |
+| 生产依赖审计 | 通过 | `npm audit --omit=dev` 返回 0 vulnerabilities |
 
 ## 微信开发者工具检查
 
-检查日期：2026-06-23
+检查日期：2026-06-24
 
 | 检查项 | 结果 | 证据或限制 |
 |---|---|---|
 | Windows 微信开发者工具安装 | 通过 | `Tencent.WeixinDevTools 2.01.2510290` |
-| CLI 启动 IDE 服务 | 通过 | 本机端口 `9420` |
+| CLI 启动 IDE 服务 | 通过 | 本机端口 `20803` |
 | CLI 打开项目 | 通过 | 项目可由开发者工具载入 |
 | 微信账号登录 | 通过 | `islogin` 返回 `login: true` |
-| 生成预览二维码 | 阻塞 | 2026-06-23 19:57 再次执行 CLI 预览；当前 `project.config.json` 使用 `touristappid`，返回“AppID 不合法” |
+| 生成预览二维码 | 阻塞 | 2026-06-24 13:19 执行 CLI 预览；当前 `project.config.json` 使用 `touristappid`，返回“AppID 不合法, invalid appid” |
 | 上传体验版 | 阻塞 | 需要真实 AppID、登录状态和云环境 |
 
 项目客户端不依赖小程序 npm 包，因此不需要在开发者工具中执行“构建 npm”。
