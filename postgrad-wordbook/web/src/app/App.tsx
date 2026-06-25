@@ -8,6 +8,7 @@ import { QuizPage } from '../pages/QuizPage';
 import { SettingsPage } from '../pages/SettingsPage';
 import type { Familiarity, WordEntry, WordState } from '../domain/types';
 import { createContentService } from '../services/contentService';
+import { buildQuestion, scoreSession } from '../domain/quiz';
 
 type AppState = {
   words: WordEntry[];
@@ -191,15 +192,14 @@ function QuizSessionPage({ words, setup, onDone }: {
   const [revealed, setRevealed] = useState(false);
 
   const [questions] = useState(() => {
-    const qm = require('../domain/quiz');
+    
     const pool = [...words].sort(() => Math.random() - 0.5).slice(0, setup.count);
-    return pool.map((w: WordEntry) => qm.buildQuestion({ type: setup.type, target: w, pool: words, random: Math.random }));
+    return pool.map((w: WordEntry) => buildQuestion({ type: setup.type, target: w, pool: words, random: Math.random }));
   });
 
   const q = questions[idx];
   if (!q) {
-    const qm2 = require('../domain/quiz');
-    onDone(qm2.scoreSession(answers));
+    onDone(scoreSession(answers));
     return null;
   }
 
@@ -212,8 +212,7 @@ function QuizSessionPage({ words, setup, onDone }: {
 
   const next = () => {
     if (idx + 1 >= questions.length) {
-      const qm3 = require('../domain/quiz');
-      onDone(qm3.scoreSession([...answers]));
+      onDone(scoreSession([...answers]));
     } else {
       setIdx(idx + 1);
       setSelected(null);
