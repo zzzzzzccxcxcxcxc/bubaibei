@@ -3,7 +3,7 @@ import path from 'node:path';
 import { parse } from 'csv-parse';
 import { ROOT, stableJson } from './content-lib.mjs';
 
-const TARGET_COUNT = 800;
+const TARGET_COUNT = 4794;
 const inputPath = process.argv[2];
 
 if (!inputPath) {
@@ -187,33 +187,47 @@ if (new Set(selected.map((word) => word.id)).size !== selected.length) {
   throw new Error('DUPLICATE_STABLE_WORD_IDS');
 }
 
-const highFrequencyIds = candidates
-  .slice(0, 400)
-  .map(({ word }) => word.id);
 const allIds = selected.map((word) => word.id);
 const sourceDir = path.join(ROOT, 'content', 'source');
 const updatedAt = '2026-06-23T00:00:00.000Z';
+// Split into 3 non-overlapping tiers by frequency rank
+// 基础词库: most frequent ~2000 words (everyday vocabulary)
+// 核心词库: medium frequency ~1800 words (exam focus)
+// 高频词库: slightly less frequent ~1200 words (exam-relevant)
+const basicIds = candidates.slice(0, 2000).map(function (c) { return c.word.id; });
+const coreIds = candidates.slice(2000, 3800).map(function (c) { return c.word.id; });
+const highIds = candidates.slice(3800, 4794).map(function (c) { return c.word.id; });
+
 const libraries = [
   {
-    libraryId: 'core-2027-prep',
-    title: '2027 备考核心词汇（800词）',
+    libraryId: 'basic-2027-prep',
+    title: '2027 考研基础词库（' + basicIds.length + '词）',
     description:
-      '基于 ECDICT 的考研（ky）标签与公开语料词频筛选，'
-      + '用于 2027 考研英语备考；不是尚未发布的 2027 官方大纲。',
+      '考研英语最基础的高频日常词汇，按 BNC 与当代语料频次排序选取。适合打基础阶段使用。',
     version: '1.0.0',
     formatVersion: 1,
     updatedAt,
-    wordIds: allIds,
+    wordIds: basicIds,
+  },
+  {
+    libraryId: 'core-2027-prep',
+    title: '2027 考研核心词库（' + coreIds.length + '词）',
+    description:
+      '考研英语核心考点词汇，从 ECDICT 考研（ky）标签词集中按频次选取。适合强化阶段使用。',
+    version: '1.0.0',
+    formatVersion: 1,
+    updatedAt,
+    wordIds: coreIds,
   },
   {
     libraryId: 'high-frequency-2027-prep',
-    title: '2027 备考高频核心（400词）',
+    title: '2027 考研高频词库（' + highIds.length + '词）',
     description:
-      '从同一 ECDICT 考研标签词集中按 BNC 与当代语料频次精选。',
+      '考研英语进阶高频词汇，从 ECDICT 考研标签中精选。适合冲刺阶段查漏补缺。',
     version: '1.0.0',
     formatVersion: 1,
     updatedAt,
-    wordIds: highFrequencyIds,
+    wordIds: highIds,
   },
 ];
 

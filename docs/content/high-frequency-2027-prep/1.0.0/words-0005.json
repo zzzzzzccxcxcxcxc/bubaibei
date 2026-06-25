@@ -1,0 +1,10574 @@
+[
+  {
+    "id": "word_optimize",
+    "word": "optimize",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'ɒptimaiz/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "使完美",
+          "使完善",
+          "充分利用",
+          "乐观地对待",
+          "优化\\nvi. 持乐观态度\\n[计] 优化"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去分词：optimized",
+      "现在分词：optimizing",
+      "第三人称单数：optimizes",
+      "过去式：optimized"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky"
+      ],
+      "bncRank": 25947,
+      "contemporaryRank": 11612
+    }
+  },
+  {
+    "id": "word_apprehend",
+    "word": "apprehend",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/.æpri'hend/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "理解",
+          "忧虑",
+          "逮捕\\nvi. 担心",
+          "理解"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去分词：apprehended",
+      "现在分词：apprehending",
+      "过去式：apprehended",
+      "第三人称单数：apprehends"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl",
+        "gre"
+      ],
+      "bncRank": 13950,
+      "contemporaryRank": 11622
+    }
+  },
+  {
+    "id": "word_fluctuate",
+    "word": "fluctuate",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'flʌktʃueit/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vi.",
+        "definitions": [
+          "变动",
+          "起伏",
+          "动摇\\nvt. 使波动",
+          "使动摇"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去式：fluctuated",
+      "第三人称单数：fluctuates",
+      "过去分词：fluctuated",
+      "现在分词：fluctuating"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 11623,
+      "contemporaryRank": 12670
+    }
+  },
+  {
+    "id": "word_transcendent",
+    "word": "transcendent",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/træn'sendənt/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "卓越的",
+          "出类拔萃的",
+          "超常的\\nn. 卓越的人",
+          "超绝物"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "gre"
+      ],
+      "bncRank": 22964,
+      "contemporaryRank": 11634
+    }
+  },
+  {
+    "id": "word_plumber",
+    "word": "plumber",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'plʌmə/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "水管工人\\n[法] 堵漏防漏人员"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：plumbers"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl",
+        "gre"
+      ],
+      "bncRank": 11659,
+      "contemporaryRank": 11990
+    }
+  },
+  {
+    "id": "word_streamline",
+    "word": "streamline",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'striːmlain/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "流线",
+          "流线型\\nvt. 使成流线型",
+          "使合理化"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "现在分词：streamlining",
+      "过去分词：streamlined",
+      "过去式：streamlined",
+      "第三人称单数：streamlines"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl"
+      ],
+      "bncRank": 12095,
+      "contemporaryRank": 11669
+    }
+  },
+  {
+    "id": "word_weld",
+    "word": "weld",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/weld/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "焊接处",
+          "焊接\\nvt. 焊接",
+          "使密接",
+          "使结合",
+          "使成整体\\nvi. 焊牢"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去分词：welded",
+      "过去式：welded",
+      "现在分词：welding",
+      "复数：welds",
+      "第三人称单数：welds"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 11669,
+      "contemporaryRank": 15095
+    }
+  },
+  {
+    "id": "word_scorn",
+    "word": "scorn",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/skɒːn/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "轻蔑",
+          "藐视",
+          "嘲笑",
+          "被嘲弄的人\\nvt. 轻蔑",
+          "不屑做"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去式：scorned",
+      "过去分词：scorned",
+      "现在分词：scorning",
+      "第三人称单数：scorns",
+      "复数：scorns"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 11677,
+      "contemporaryRank": 11935
+    }
+  },
+  {
+    "id": "word_queer",
+    "word": "queer",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/kwiə/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "怪人",
+          "同性恋者\\na. 奇怪的",
+          "不舒服的",
+          "可疑的\\nvt. 搞糟"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：queers",
+      "最高级：queerest",
+      "现在分词：queering",
+      "比较级：queerer",
+      "第三人称单数：queers",
+      "过去分词：queered",
+      "过去式：queered"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 12553,
+      "contemporaryRank": 11708
+    }
+  },
+  {
+    "id": "word_riddle",
+    "word": "riddle",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'ridl/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "谜",
+          "谜语",
+          "粗筛\\nvt. 解谜",
+          "给...出谜",
+          "筛",
+          "寻根究底地检验",
+          "充满于\\nvi. 出谜"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去分词：riddled",
+      "复数：riddles",
+      "过去式：riddled",
+      "现在分词：riddling",
+      "第三人称单数：riddles"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "zk",
+        "gk",
+        "cet4",
+        "cet6",
+        "ky",
+        "toefl",
+        "gre"
+      ],
+      "bncRank": 13883,
+      "contemporaryRank": 11712
+    }
+  },
+  {
+    "id": "word_diffuse",
+    "word": "diffuse",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/di'fjuːz/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "v.",
+        "definitions": [
+          "散播",
+          "传播\\na. 散开的",
+          "弥漫的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去分词：diffused",
+      "第三人称单数：diffuses",
+      "现在分词：diffusing",
+      "过去式：diffused"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 11715,
+      "contemporaryRank": 12366
+    }
+  },
+  {
+    "id": "word_perceptual",
+    "word": "perceptual",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/pə'septʃuəl/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "知觉的",
+          "有知觉的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky"
+      ],
+      "bncRank": 13101,
+      "contemporaryRank": 11718
+    }
+  },
+  {
+    "id": "word_desolate",
+    "word": "desolate",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'desələt/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "荒凉的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "现在分词：desolating",
+      "过去式：desolated",
+      "第三人称单数：desolates",
+      "过去分词：desolated"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 11752,
+      "contemporaryRank": 12016
+    }
+  },
+  {
+    "id": "word_amiable",
+    "word": "amiable",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'eimjəbl/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "亲切的",
+          "和蔼可亲的\\n[法] 亲和的",
+          "和蔼可亲的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl",
+        "gre"
+      ],
+      "bncRank": 11755,
+      "contemporaryRank": 15763
+    }
+  },
+  {
+    "id": "word_indignant",
+    "word": "indignant",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/in'dignənt/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "愤怒的",
+          "愤慨的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 11758,
+      "contemporaryRank": 14792
+    }
+  },
+  {
+    "id": "word_trifle",
+    "word": "trifle",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'traifl/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "琐事",
+          "少量\\nvt. 浪费\\nvi. 开玩笑",
+          "翻弄",
+          "虚度光阴"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：trifles",
+      "过去分词：trifled",
+      "现在分词：trifling",
+      "过去式：trifled",
+      "第三人称单数：trifles"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 11802,
+      "contemporaryRank": 16426
+    }
+  },
+  {
+    "id": "word_ox",
+    "word": "ox",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/ɒks/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "牛"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：oxen",
+      "比较级：oxer"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "gk",
+        "cet4",
+        "cet6",
+        "ky"
+      ],
+      "bncRank": 11804,
+      "contemporaryRank": null
+    }
+  },
+  {
+    "id": "word_acclaim",
+    "word": "acclaim",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/ə'kleim/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "喝彩",
+          "欢呼",
+          "赞同\\nv. 欢呼",
+          "喝彩",
+          "称赞"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去分词：acclaimed",
+      "过去式：acclaimed",
+      "现在分词：acclaiming",
+      "复数：acclaims",
+      "第三人称单数：acclaims"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 11847,
+      "contemporaryRank": 12422
+    }
+  },
+  {
+    "id": "word_grocer",
+    "word": "grocer",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'grəusə/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "食品商"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：grocers"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "gk",
+        "cet4",
+        "cet6",
+        "ky"
+      ],
+      "bncRank": 11854,
+      "contemporaryRank": 14410
+    }
+  },
+  {
+    "id": "word_prick",
+    "word": "prick",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/prik/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "刺",
+          "戳",
+          "刺痛",
+          "使竖起\\nvi. 刺",
+          "竖起\\nn. 扎",
+          "一刺",
+          "刺痛\\na. 竖起的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "现在分词：pricking",
+      "过去式：pricked",
+      "过去分词：pricked",
+      "复数：pricks",
+      "第三人称单数：pricks"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "gre"
+      ],
+      "bncRank": 11860,
+      "contemporaryRank": 13277
+    }
+  },
+  {
+    "id": "word_purify",
+    "word": "purify",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'pjuərifai/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vi.",
+        "definitions": [
+          "变纯净\\nvt. 使纯净",
+          "净化",
+          "提纯",
+          "精炼"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去式：purified",
+      "过去分词：purified",
+      "现在分词：purifying",
+      "第三人称单数：purifies"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky",
+        "toefl",
+        "gre"
+      ],
+      "bncRank": 11900,
+      "contemporaryRank": 13440
+    }
+  },
+  {
+    "id": "word_tar",
+    "word": "tar",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/tɑ:/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "焦油",
+          "柏油",
+          "水手\\nvt. 涂以焦油",
+          "玷污",
+          "怂恿\\na. 焦油的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去分词：tarred",
+      "过去式：tarred",
+      "复数：tars",
+      "现在分词：tarring",
+      "第三人称单数：tars"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "ielts"
+      ],
+      "bncRank": 14622,
+      "contemporaryRank": 11903
+    }
+  },
+  {
+    "id": "word_henceforth",
+    "word": "henceforth",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/hens'fɒːθ/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adv.",
+        "definitions": [
+          "自此以后",
+          "今后"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "ielts"
+      ],
+      "bncRank": 11925,
+      "contemporaryRank": 17401
+    }
+  },
+  {
+    "id": "word_momentary",
+    "word": "momentary",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'məuməntəri/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "瞬间的",
+          "刹那间的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky"
+      ],
+      "bncRank": 11937,
+      "contemporaryRank": 12036
+    }
+  },
+  {
+    "id": "word_blackmail",
+    "word": "blackmail",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'blækmeil/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "勒索\\nvt. 勒索"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "现在分词：blackmailing",
+      "过去分词：blackmailed",
+      "过去式：blackmailed",
+      "第三人称单数：blackmails"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl",
+        "gre"
+      ],
+      "bncRank": 11953,
+      "contemporaryRank": 17169
+    }
+  },
+  {
+    "id": "word_deviate",
+    "word": "deviate",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'diːvieit/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vi.",
+        "definitions": [
+          "脱离",
+          "偏离\\nvt. 使偏离\\na. 脱离常规的\\nn. 脱离常规的人"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去式：deviated",
+      "现在分词：deviating",
+      "第三人称单数：deviates",
+      "过去分词：deviated",
+      "复数：deviates"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 11974,
+      "contemporaryRank": 13796
+    }
+  },
+  {
+    "id": "word_steamer",
+    "word": "steamer",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'stiːmə/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "汽船",
+          "蒸汽机\\n[化] 蒸汽发生器",
+          "蒸汽机"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：steamers"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky",
+        "ielts"
+      ],
+      "bncRank": 11992,
+      "contemporaryRank": 13331
+    }
+  },
+  {
+    "id": "word_torment",
+    "word": "torment",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'tɒːment/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "使人痛苦的东西",
+          "折磨者",
+          "苦痛\\nvt. 使苦恼",
+          "纠缠",
+          "歪曲",
+          "拷问"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去分词：tormented",
+      "现在分词：tormenting",
+      "复数：torments",
+      "过去式：tormented",
+      "第三人称单数：torments"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 12113,
+      "contemporaryRank": 12020
+    }
+  },
+  {
+    "id": "word_peep",
+    "word": "peep",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/piːp/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "一瞥",
+          "偷看",
+          "不完全的景象",
+          "初现",
+          "吱吱声",
+          "嘀咕抱怨声",
+          "汽车喇叭声\\nvi. 窥视",
+          "出现",
+          "吱吱叫\\nvt. 使隐约显现"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "现在分词：peeping",
+      "过去式：peeped",
+      "第三人称单数：peeps",
+      "过去分词：peeped",
+      "复数：peeps"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky",
+        "gre"
+      ],
+      "bncRank": 12052,
+      "contemporaryRank": 16608
+    }
+  },
+  {
+    "id": "word_analytic",
+    "word": "analytic",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/.ænə'litik/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "分析的",
+          "善于分析的",
+          "解析的\\n[医] 分析的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：analytics"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky"
+      ],
+      "bncRank": 15952,
+      "contemporaryRank": 12062
+    }
+  },
+  {
+    "id": "word_literate",
+    "word": "literate",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'litərit/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "学者\\na. 有读写能力的",
+          "精通文学的",
+          "受过教育的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：literates"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl",
+        "gre"
+      ],
+      "bncRank": 12088,
+      "contemporaryRank": 12067
+    }
+  },
+  {
+    "id": "word_blunder",
+    "word": "blunder",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'blʌndə/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "大错",
+          "大失策\\nvi. 失策",
+          "跌跌撞撞地走",
+          "犯错\\nvt. 做错"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：blunders",
+      "现在分词：blundering",
+      "过去式：blundered",
+      "过去分词：blundered",
+      "第三人称单数：blunders"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 12081,
+      "contemporaryRank": 13190
+    }
+  },
+  {
+    "id": "word_incline",
+    "word": "incline",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/in'klain/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "倾斜",
+          "斜坡",
+          "斜面\\nvt. 使倾向于",
+          "使倾斜\\nvi. 倾向",
+          "倾斜",
+          "爱好",
+          "易于"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去式：inclined",
+      "现在分词：inclining",
+      "过去分词：inclined",
+      "第三人称单数：inclines",
+      "复数：inclines"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky",
+        "ielts"
+      ],
+      "bncRank": 12104,
+      "contemporaryRank": 12701
+    }
+  },
+  {
+    "id": "word_rotary",
+    "word": "rotary",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'rəutəri/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "旋转的",
+          "轮流的\\nn. 旋转式机器"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：rotaries"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky"
+      ],
+      "bncRank": 12122,
+      "contemporaryRank": 12580
+    }
+  },
+  {
+    "id": "word_agitate",
+    "word": "agitate",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'ædʒiteit/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "使摇动",
+          "搅动",
+          "使激动",
+          "使不安\\nvi. 鼓动",
+          "煽动"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去分词：agitated",
+      "现在分词：agitating",
+      "过去式：agitated",
+      "第三人称单数：agitates"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl",
+        "gre"
+      ],
+      "bncRank": 13895,
+      "contemporaryRank": 12134
+    }
+  },
+  {
+    "id": "word_polarize",
+    "word": "polarize",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'pəuləraiz/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "v.",
+        "definitions": [
+          "(使)偏振",
+          "(使)极化",
+          "(使)两极分化"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去分词：polarized",
+      "现在分词：polarizing",
+      "过去式：polarized",
+      "第三人称单数：polarizes"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl",
+        "gre"
+      ],
+      "bncRank": 22330,
+      "contemporaryRank": 12148
+    }
+  },
+  {
+    "id": "word_quirk",
+    "word": "quirk",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/kwəːk/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "古怪举动",
+          "俏皮话",
+          "急转"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：quirks",
+      "过去式：quirked",
+      "现在分词：quirking"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "gre"
+      ],
+      "bncRank": 14107,
+      "contemporaryRank": 12149
+    }
+  },
+  {
+    "id": "word_fable",
+    "word": "fable",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'feibl/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "寓言",
+          "神话",
+          "谎言\\nvi. 虚构",
+          "作寓言"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：fables"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl"
+      ],
+      "bncRank": 14705,
+      "contemporaryRank": 12174
+    }
+  },
+  {
+    "id": "word_civility",
+    "word": "civility",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/si'viliti/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "礼貌",
+          "礼仪"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：civilities"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl",
+        "gre"
+      ],
+      "bncRank": 21057,
+      "contemporaryRank": 12195
+    }
+  },
+  {
+    "id": "word_illiterate",
+    "word": "illiterate",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/i'litərət/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "文盲\\na. 目不识丁的",
+          "没受教育的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：illiterates"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 13846,
+      "contemporaryRank": 12243
+    }
+  },
+  {
+    "id": "word_gaol",
+    "word": "gaol",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/dʒeil/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "监禁",
+          "监狱\\nvt. 监禁"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：gaols",
+      "过去分词：gaoled",
+      "过去式：gaoled",
+      "现在分词：gaoling",
+      "第三人称单数：gaols"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "ielts"
+      ],
+      "bncRank": 12250,
+      "contemporaryRank": 34762
+    }
+  },
+  {
+    "id": "word_owing",
+    "word": "owing",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'əuiŋ/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "未付的",
+          "亏欠的",
+          "受惠的",
+          "归因于...的\\n[经] 应付的",
+          "欠着的",
+          "未付的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "原形：owe",
+      "原形变体：i",
+      "现在分词：owing",
+      "复数：owings"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "ky"
+      ],
+      "bncRank": 33250,
+      "contemporaryRank": 12267
+    }
+  },
+  {
+    "id": "word_skillful",
+    "word": "skillful",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'skilful/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "熟练的",
+          "巧妙的\\n[机] 熟练的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "gk",
+        "cet4",
+        "cet6",
+        "ky",
+        "toefl"
+      ],
+      "bncRank": 43429,
+      "contemporaryRank": 12290
+    }
+  },
+  {
+    "id": "word_brim",
+    "word": "brim",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/brim/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "边",
+          "边缘",
+          "(河)边\\nvt. 注满",
+          "使满溢\\nvi. 满溢"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "现在分词：brimming",
+      "过去式：brimmed",
+      "复数：brims",
+      "第三人称单数：brims",
+      "过去分词：brimmed"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky",
+        "toefl",
+        "gre"
+      ],
+      "bncRank": 15159,
+      "contemporaryRank": 12307
+    }
+  },
+  {
+    "id": "word_paradoxical",
+    "word": "paradoxical",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/.pærə'dɒksikl/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "似非而是的",
+          "矛盾的",
+          "诡论的\\n[医] 奇异的",
+          "矛盾的",
+          "逆理的",
+          "反常的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky"
+      ],
+      "bncRank": 12338,
+      "contemporaryRank": 12379
+    }
+  },
+  {
+    "id": "word_hijack",
+    "word": "hijack",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'haidʒæk/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "抢劫",
+          "劫持",
+          "敲诈\\n[法] 挡路抢劫",
+          "抢劫",
+          "绑架"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去分词：hijacked",
+      "过去式：hijacked",
+      "现在分词：hijacking",
+      "复数：hijacks",
+      "第三人称单数：hijacks"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "ielts"
+      ],
+      "bncRank": 14110,
+      "contemporaryRank": 12339
+    }
+  },
+  {
+    "id": "word_inlet",
+    "word": "inlet",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'inlet/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "进口",
+          "插入物\\n[化] 入口",
+          "进口",
+          "投料口",
+          "供料口"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：inlets"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky"
+      ],
+      "bncRank": 12339,
+      "contemporaryRank": 13676
+    }
+  },
+  {
+    "id": "word_segregate",
+    "word": "segregate",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'segrigeit/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "分离的",
+          "被隔离的\\nvi. 分离",
+          "隔离",
+          "分凝\\nvt. 使分离",
+          "使隔离"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去分词：segregated",
+      "现在分词：segregating",
+      "第三人称单数：segregates",
+      "过去式：segregated"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts"
+      ],
+      "bncRank": 14472,
+      "contemporaryRank": 12370
+    }
+  },
+  {
+    "id": "word_horsepower",
+    "word": "horsepower",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'hɒːspauə/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "马力\\n[电] 马力"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky",
+        "toefl"
+      ],
+      "bncRank": 23778,
+      "contemporaryRank": 12375
+    }
+  },
+  {
+    "id": "word_meditate",
+    "word": "meditate",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'mediteit/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "想",
+          "考虑",
+          "计划\\nvi. 沉思",
+          "反省"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "现在分词：meditating",
+      "过去式：meditated",
+      "过去分词：meditated",
+      "第三人称单数：meditates",
+      "复数：meditates"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 15721,
+      "contemporaryRank": 12380
+    }
+  },
+  {
+    "id": "word_sham",
+    "word": "sham",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/ʃæm/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "假",
+          "赝品",
+          "骗子",
+          "哄骗\\na. 假的",
+          "伪造的\\nvt. 假装",
+          "冒充\\nvi. 装假"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：shams",
+      "现在分词：shamming",
+      "过去式：shammed",
+      "第三人称单数：shams",
+      "过去分词：shammed"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "gre"
+      ],
+      "bncRank": 13965,
+      "contemporaryRank": 12391
+    }
+  },
+  {
+    "id": "word_mania",
+    "word": "mania",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'meiniə/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "狂躁",
+          "热衷",
+          "狂热\\n[医] 躁狂",
+          "狂"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：manias"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 14608,
+      "contemporaryRank": 12415
+    }
+  },
+  {
+    "id": "word_dazzle",
+    "word": "dazzle",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'dæzl/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "v.",
+        "definitions": [
+          "(使)眼花",
+          "炫耀\\nn. 耀眼"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去分词：dazzled",
+      "过去式：dazzled",
+      "现在分词：dazzling",
+      "第三人称单数：dazzles",
+      "复数：dazzles"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts"
+      ],
+      "bncRank": 13863,
+      "contemporaryRank": 12418
+    }
+  },
+  {
+    "id": "word_cohesive",
+    "word": "cohesive",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/kəu'hiːsiv/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "黏合在一起的\\n[医] 内聚的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl",
+        "gre"
+      ],
+      "bncRank": 12438,
+      "contemporaryRank": 12919
+    }
+  },
+  {
+    "id": "word_volt",
+    "word": "volt",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/vəult/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "伏特\\n[化] 伏特"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：volts"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky",
+        "toefl"
+      ],
+      "bncRank": 12526,
+      "contemporaryRank": null
+    }
+  },
+  {
+    "id": "word_astonish",
+    "word": "astonish",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/ə'stɒniʃ/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "使惊讶"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去式：astonished",
+      "过去分词：astonished",
+      "第三人称单数：astonishes",
+      "现在分词：astonishing"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "gk",
+        "cet4",
+        "ky",
+        "toefl"
+      ],
+      "bncRank": 18564,
+      "contemporaryRank": 12542
+    }
+  },
+  {
+    "id": "word_pendulum",
+    "word": "pendulum",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'pendʒələm/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "钟摆",
+          "摇锤",
+          "摇摆不定的事态(或局面)\\n[化] 摆"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：pendulums"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 14260,
+      "contemporaryRank": 12582
+    }
+  },
+  {
+    "id": "word_erroneous",
+    "word": "erroneous",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/i'rəuniəs/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "错误的",
+          "不正确的\\n[法] 错误的",
+          "不正确的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts"
+      ],
+      "bncRank": 14695,
+      "contemporaryRank": 12587
+    }
+  },
+  {
+    "id": "word_bosom",
+    "word": "bosom",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'buzəm/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "胸部",
+          "胸",
+          "胸怀",
+          "内部",
+          "中间\\nvt. 怀抱"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：bosoms",
+      "现在分词：bosoming",
+      "过去式：bosomed",
+      "第三人称单数：bosoms",
+      "过去分词：bosomed"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky"
+      ],
+      "bncRank": 12605,
+      "contemporaryRank": 12630
+    }
+  },
+  {
+    "id": "word_sarcasm",
+    "word": "sarcasm",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'sɑ:kæzm/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "挖苦",
+          "讽刺",
+          "讽刺话",
+          "讽刺性"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：sarcasms"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl",
+        "ielts"
+      ],
+      "bncRank": 12625,
+      "contemporaryRank": 13455
+    }
+  },
+  {
+    "id": "word_millimeter",
+    "word": "millimeter",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'milimiːtə/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "毫米\\n[医] 毫米"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl"
+      ],
+      "bncRank": null,
+      "contemporaryRank": 12635
+    }
+  },
+  {
+    "id": "word_appall",
+    "word": "appall",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/ə'pɒːl/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "使丧胆",
+          "使惊骇"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "第三人称单数：appalls",
+      "复数：appalls",
+      "现在分词：appalling",
+      "过去式：appalled",
+      "过去分词：appalled"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl",
+        "gre"
+      ],
+      "bncRank": null,
+      "contemporaryRank": 12646
+    }
+  },
+  {
+    "id": "word_insightful",
+    "word": "insightful",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'in.saitful/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "有深刻见解的",
+          "富有洞察力的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky"
+      ],
+      "bncRank": 37193,
+      "contemporaryRank": 12671
+    }
+  },
+  {
+    "id": "word_paternal",
+    "word": "paternal",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/pə'təːnl/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "父亲的",
+          "父系的",
+          "似父亲的",
+          "得自父亲的",
+          "家长式统治的\\n[法] 父系的",
+          "父亲的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky"
+      ],
+      "bncRank": 15060,
+      "contemporaryRank": 12688
+    }
+  },
+  {
+    "id": "word_sneeze",
+    "word": "sneeze",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/sniːz/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "喷嚏\\nvi. 打喷嚏"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "现在分词：sneezing",
+      "过去式：sneezed",
+      "第三人称单数：sneezes",
+      "复数：sneezes",
+      "过去分词：sneezed"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "gk",
+        "cet6",
+        "ky"
+      ],
+      "bncRank": 15926,
+      "contemporaryRank": 12750
+    }
+  },
+  {
+    "id": "word_equator",
+    "word": "equator",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/i'kweitə/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "赤道\\n[医] 赤道",
+          "中纬线"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：equators"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 15702,
+      "contemporaryRank": 12760
+    }
+  },
+  {
+    "id": "word_twinkle",
+    "word": "twinkle",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'twiŋkl/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "闪烁",
+          "闪耀",
+          "瞬息\\nvi. 闪烁\\nvt. 使闪耀"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去式：twinkled",
+      "现在分词：twinkling",
+      "第三人称单数：twinkles",
+      "过去分词：twinkled",
+      "复数：twinkles"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky",
+        "ielts"
+      ],
+      "bncRank": 12893,
+      "contemporaryRank": 12769
+    }
+  },
+  {
+    "id": "word_dramatize",
+    "word": "dramatize",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'dræmətaiz/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "改编成戏剧",
+          "编写剧本\\nvi. 戏剧化"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去分词：dramatized",
+      "现在分词：dramatizing",
+      "过去式：dramatized",
+      "第三人称单数：dramatizes"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl"
+      ],
+      "bncRank": 24925,
+      "contemporaryRank": 12771
+    }
+  },
+  {
+    "id": "word_soluble",
+    "word": "soluble",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'sɒljubl/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "溶解的",
+          "可溶解的",
+          "可以解决的\\n[医] 溶解的",
+          "可溶的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：solubles"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 12780,
+      "contemporaryRank": 18497
+    }
+  },
+  {
+    "id": "word_epoch",
+    "word": "epoch",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'iːpɒk/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "新纪元",
+          "时代",
+          "时期"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：epochs"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 15275,
+      "contemporaryRank": 12794
+    }
+  },
+  {
+    "id": "word_ruby",
+    "word": "ruby",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'ruːbi/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "红宝石",
+          "深红色\\na. 红宝石色的",
+          "深红色的\\nvt. 使带红宝石色"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：rubies"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky"
+      ],
+      "bncRank": 12800,
+      "contemporaryRank": 37798
+    }
+  },
+  {
+    "id": "word_loudspeaker",
+    "word": "loudspeaker",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'laud'spiːkə/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "扩音器",
+          "喇叭\\n[电] 扬声器"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：loudspeakers",
+      "现在分词：loudspeakering",
+      "过去式：loudspeakered"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "gk",
+        "cet4",
+        "cet6",
+        "ky"
+      ],
+      "bncRank": 14516,
+      "contemporaryRank": 12875
+    }
+  },
+  {
+    "id": "word_wholesome",
+    "word": "wholesome",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'həulsəm/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "有益健康的",
+          "合乎卫生的",
+          "健全的",
+          "有益的",
+          "有生气的",
+          "审慎的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 14284,
+      "contemporaryRank": 12893
+    }
+  },
+  {
+    "id": "word_persecute",
+    "word": "persecute",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'pəːsikjuːt/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "迫害",
+          "虐待",
+          "困扰",
+          "同...捣乱\\n[法] 迫害",
+          "虐待",
+          "烦扰"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去分词：persecuted",
+      "现在分词：persecuting",
+      "过去式：persecuted",
+      "第三人称单数：persecutes",
+      "复数：persecutes"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 13795,
+      "contemporaryRank": 12900
+    }
+  },
+  {
+    "id": "word_smog",
+    "word": "smog",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/sməug/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "烟雾\\n[化] 烟雾"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：smogs",
+      "第三人称单数：smogs"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "gk",
+        "cet4",
+        "cet6",
+        "ky",
+        "toefl"
+      ],
+      "bncRank": 17069,
+      "contemporaryRank": 12947
+    }
+  },
+  {
+    "id": "word_oppress",
+    "word": "oppress",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/ə'pres/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "压迫",
+          "压抑",
+          "使烦恼"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去分词：oppressed",
+      "过去式：oppressed",
+      "现在分词：oppressing",
+      "第三人称单数：oppresses"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 14569,
+      "contemporaryRank": 13013
+    }
+  },
+  {
+    "id": "word_repress",
+    "word": "repress",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/ri'pres/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "镇压",
+          "抑制",
+          "压制\\nvi. 压制"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "现在分词：repressing",
+      "过去分词：repressed",
+      "过去式：repressed",
+      "第三人称单数：represses",
+      "复数：represses"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl"
+      ],
+      "bncRank": 14291,
+      "contemporaryRank": 13023
+    }
+  },
+  {
+    "id": "word_violet",
+    "word": "violet",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'vaiəlit/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "堇菜",
+          "紫罗兰\\na. 堇菜科的",
+          "紫罗兰色的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：violets"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky",
+        "gre"
+      ],
+      "bncRank": 13023,
+      "contemporaryRank": 14924
+    }
+  },
+  {
+    "id": "word_sarcastic",
+    "word": "sarcastic",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/sɑ:'kæstik/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "讽刺的",
+          "讥讽的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl",
+        "gre"
+      ],
+      "bncRank": 14939,
+      "contemporaryRank": 13030
+    }
+  },
+  {
+    "id": "word_analogue",
+    "word": "analogue",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'ænəlɒg/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "类似物",
+          "相似情况\\n[医] 类似物",
+          "同型物",
+          "相似器官",
+          "同功异质体"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：analogues"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky"
+      ],
+      "bncRank": 13033,
+      "contemporaryRank": 19447
+    }
+  },
+  {
+    "id": "word_panorama",
+    "word": "panorama",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/.pænə'rɑ:mə/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "全景",
+          "全貌",
+          "概论",
+          "范围"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：panoramas"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 13930,
+      "contemporaryRank": 13033
+    }
+  },
+  {
+    "id": "word_gymnasium",
+    "word": "gymnasium",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/dʒim'neiziəm/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "健身房",
+          "体育馆\\n[医] 体育馆",
+          "健身室",
+          "运动场"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：gymnasiums"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "zk",
+        "cet4",
+        "cet6",
+        "ky",
+        "ielts"
+      ],
+      "bncRank": 15478,
+      "contemporaryRank": 13057
+    }
+  },
+  {
+    "id": "word_quartz",
+    "word": "quartz",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/kwɒːts/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "石英\\n[化] 石英"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl"
+      ],
+      "bncRank": 13134,
+      "contemporaryRank": 16587
+    }
+  },
+  {
+    "id": "word_uproar",
+    "word": "uproar",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'ʌprɒː/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "骚动",
+          "喧嚣"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：uproars"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl",
+        "gre"
+      ],
+      "bncRank": 13911,
+      "contemporaryRank": 13150
+    }
+  },
+  {
+    "id": "word_decimal",
+    "word": "decimal",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'desiməl/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "十进位的",
+          "小数的\\nn. 十进制",
+          "小数\\n[计] 十进制",
+          "小数点"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：decimals"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts"
+      ],
+      "bncRank": 13168,
+      "contemporaryRank": 24527
+    }
+  },
+  {
+    "id": "word_calorie",
+    "word": "calorie",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'kæləri/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "卡路里（热量单位）"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 13241,
+      "contemporaryRank": null
+    }
+  },
+  {
+    "id": "word_piston",
+    "word": "piston",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'pistən/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "活塞",
+          "活塞阀键\\n[医] 活塞(如注射器的)"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：pistons",
+      "过去式：pistoned",
+      "现在分词：pistoning"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "ielts"
+      ],
+      "bncRank": 15187,
+      "contemporaryRank": 13303
+    }
+  },
+  {
+    "id": "word_philharmonic",
+    "word": "philharmonic",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/.filɑ:'mɒnik/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "爱好音乐的",
+          "交响乐团的",
+          "爱乐团体的\\nn. 音乐爱好者",
+          "音乐协会",
+          "音乐会",
+          "交响乐团"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl"
+      ],
+      "bncRank": 16969,
+      "contemporaryRank": 13357
+    }
+  },
+  {
+    "id": "word_pretext",
+    "word": "pretext",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'priːtekst/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "借口",
+          "托词\\nv. 以...为借口"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：pretexts"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 13929,
+      "contemporaryRank": 13441
+    }
+  },
+  {
+    "id": "word_snowstorm",
+    "word": "snowstorm",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'snəustɒːm/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "暴风雪\\n[化] 雪暴"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：snowstorms",
+      "第三人称单数：snowstorms"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky"
+      ],
+      "bncRank": 23065,
+      "contemporaryRank": 13456
+    }
+  },
+  {
+    "id": "word_futility",
+    "word": "futility",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/fjuː'tiliti/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "无用",
+          "无益",
+          "无价值"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：futilities"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "gre"
+      ],
+      "bncRank": 15118,
+      "contemporaryRank": 13526
+    }
+  },
+  {
+    "id": "word_perseverance",
+    "word": "perseverance",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/pəːsi'viərəns/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "毅力",
+          "忍耐",
+          "锲而不舍",
+          "不屈不挠"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl"
+      ],
+      "bncRank": 19125,
+      "contemporaryRank": 13573
+    }
+  },
+  {
+    "id": "word_condense",
+    "word": "condense",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/kən'dens/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "使浓缩",
+          "使压缩",
+          "缩短\\nvi. 浓缩",
+          "凝结"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去分词：condensed",
+      "过去式：condensed",
+      "现在分词：condensing",
+      "复数：condenses",
+      "第三人称单数：condenses"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 13961,
+      "contemporaryRank": 13674
+    }
+  },
+  {
+    "id": "word_ebb",
+    "word": "ebb",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/eb/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "退潮",
+          "衰退\\nvi. 潮退",
+          "衰退"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去式：ebbed",
+      "过去分词：ebbed",
+      "复数：ebbs",
+      "第三人称单数：ebbs",
+      "现在分词：ebbing"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl",
+        "gre"
+      ],
+      "bncRank": 13680,
+      "contemporaryRank": 14957
+    }
+  },
+  {
+    "id": "word_superfluous",
+    "word": "superfluous",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/sju'pəːfluəs/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "多余的",
+          "过剩的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 13701,
+      "contemporaryRank": 16195
+    }
+  },
+  {
+    "id": "word_avail",
+    "word": "avail",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/ə'veil/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vi.",
+        "definitions": [
+          "有用",
+          "有利\\nvt. 有利于\\nn. 效用",
+          "利益"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去式：availed",
+      "过去分词：availed",
+      "现在分词：availing",
+      "第三人称单数：avails"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "ielts"
+      ],
+      "bncRank": 13705,
+      "contemporaryRank": 14262
+    }
+  },
+  {
+    "id": "word_monotonous",
+    "word": "monotonous",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/mə'nɒtənəs/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "单调的",
+          "无变化的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 13743,
+      "contemporaryRank": 16805
+    }
+  },
+  {
+    "id": "word_eyesight",
+    "word": "eyesight",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'aisait/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "视力",
+          "目力"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "gk",
+        "cet4",
+        "cet6",
+        "ky",
+        "ielts"
+      ],
+      "bncRank": 13749,
+      "contemporaryRank": 14627
+    }
+  },
+  {
+    "id": "word_persevere",
+    "word": "persevere",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/.pəːsi'viə/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vi.",
+        "definitions": [
+          "坚持",
+          "孜孜不倦",
+          "不屈不挠",
+          "(辩论中)固执己见"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去式：persevered",
+      "过去分词：persevered",
+      "第三人称单数：perseveres",
+      "现在分词：persevering"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts"
+      ],
+      "bncRank": 13755,
+      "contemporaryRank": 13798
+    }
+  },
+  {
+    "id": "word_worst",
+    "word": "worst",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/wəːst/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "最坏",
+          "最坏的时候\\na. 最坏的",
+          "最恶劣的",
+          "最不利的\\nadv. 最坏",
+          "最糟"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "原形：bad",
+      "原形变体：t",
+      "过去分词：worsted",
+      "第三人称单数：worsts",
+      "比较级：worst"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "gk",
+        "cet4",
+        "cet6",
+        "ky"
+      ],
+      "bncRank": 13770,
+      "contemporaryRank": 33505
+    }
+  },
+  {
+    "id": "word_tiresome",
+    "word": "tiresome",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'taiəsəm/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "累人的",
+          "烦人的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky"
+      ],
+      "bncRank": 13772,
+      "contemporaryRank": 17944
+    }
+  },
+  {
+    "id": "word_zebra",
+    "word": "zebra",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'ziːbrə/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "斑马"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：zebras"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "zk",
+        "gk",
+        "cet4",
+        "cet6",
+        "ky"
+      ],
+      "bncRank": 15998,
+      "contemporaryRank": 13912
+    }
+  },
+  {
+    "id": "word_considerate",
+    "word": "considerate",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/kən'sidərit/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "体贴的",
+          "体谅的",
+          "考虑周到的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "gk",
+        "cet4",
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts"
+      ],
+      "bncRank": 13960,
+      "contemporaryRank": 17092
+    }
+  },
+  {
+    "id": "word_auxiliary",
+    "word": "auxiliary",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/ɒːg'ziljəri/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "辅助者",
+          "辅助物",
+          "附属机构",
+          "助动词\\na. 辅助的",
+          "备用的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：auxiliaries"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 14335,
+      "contemporaryRank": 13990
+    }
+  },
+  {
+    "id": "word_diligent",
+    "word": "diligent",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'dilidʒənt/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "勤勉的",
+          "用功的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts"
+      ],
+      "bncRank": 18419,
+      "contemporaryRank": 14139
+    }
+  },
+  {
+    "id": "word_obedient",
+    "word": "obedient",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/ə'biːdjənt/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "服从的",
+          "顺从的",
+          "孝顺的\\n[法] 服从的",
+          "顺从的",
+          "忠顺的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 14157,
+      "contemporaryRank": 14489
+    }
+  },
+  {
+    "id": "word_pail",
+    "word": "pail",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/peil/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "桶",
+          "提桶"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：pails"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky"
+      ],
+      "bncRank": 20588,
+      "contemporaryRank": 14177
+    }
+  },
+  {
+    "id": "word_recollect",
+    "word": "recollect",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/.rekə'lekt/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "回忆",
+          "回想",
+          "忆起\\nvi. 回忆"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去式：recollected",
+      "第三人称单数：recollects",
+      "现在分词：recollecting",
+      "过去分词：recollected"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky"
+      ],
+      "bncRank": 14189,
+      "contemporaryRank": 17984
+    }
+  },
+  {
+    "id": "word_instantaneous",
+    "word": "instantaneous",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/.instən'teinjəs/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "即时的",
+          "瞬间的",
+          "猝发的\\n[机] 瞬时的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 14344,
+      "contemporaryRank": 14192
+    }
+  },
+  {
+    "id": "word_resolute",
+    "word": "resolute",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'rezəluːt/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "果断的人\\na. 坚决的",
+          "刚毅的",
+          "毅然的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：resolutes"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl"
+      ],
+      "bncRank": 14211,
+      "contemporaryRank": 14975
+    }
+  },
+  {
+    "id": "word_anemia",
+    "word": "anemia",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/ə'niːmiə/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "贫血",
+          "贫血症",
+          "无活力\\n[医] 贫血"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "gre"
+      ],
+      "bncRank": null,
+      "contemporaryRank": 14240
+    }
+  },
+  {
+    "id": "word_prudence",
+    "word": "prudence",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'pruːdns/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "审慎",
+          "慎重",
+          "精明",
+          "节俭"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "gre"
+      ],
+      "bncRank": 14272,
+      "contemporaryRank": 14974
+    }
+  },
+  {
+    "id": "word_superstitious",
+    "word": "superstitious",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/.sjuːpə'stiʃəs/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "迷信的\\n[法] 迷信的",
+          "由迷信引起的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky"
+      ],
+      "bncRank": 14759,
+      "contemporaryRank": 14286
+    }
+  },
+  {
+    "id": "word_dew",
+    "word": "dew",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/djuː/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "露珠",
+          "露水\\nvt. (用露水)沾湿\\nvi. 结露水"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：dews",
+      "过去式：dewed",
+      "过去分词：dewed"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky"
+      ],
+      "bncRank": 14303,
+      "contemporaryRank": 14536
+    }
+  },
+  {
+    "id": "word_deride",
+    "word": "deride",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/di'raid/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "嘲弄",
+          "嘲笑"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去分词：derided",
+      "过去式：derided",
+      "现在分词：deriding",
+      "第三人称单数：derides",
+      "复数：derides"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl",
+        "gre"
+      ],
+      "bncRank": 18730,
+      "contemporaryRank": 14315
+    }
+  },
+  {
+    "id": "word_sociable",
+    "word": "sociable",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'səuʃəbl/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "好交际的",
+          "社交的",
+          "过社会生活的\\nn. 联谊会"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 14328,
+      "contemporaryRank": 20210
+    }
+  },
+  {
+    "id": "word_cordial",
+    "word": "cordial",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'kɒːdjəl/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "兴奋剂",
+          "补品\\na. 热忱的",
+          "诚恳的",
+          "有兴奋作用的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：cordials"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 19234,
+      "contemporaryRank": 14433
+    }
+  },
+  {
+    "id": "word_oar",
+    "word": "oar",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/ɒː/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "桨",
+          "桨手",
+          "搅棒\\nvi. 划桨\\nvt. 划动"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：oars"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 15407,
+      "contemporaryRank": 14498
+    }
+  },
+  {
+    "id": "word_deceit",
+    "word": "deceit",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/di'siːt/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "欺骗",
+          "谎言\\n[经] 诈骗",
+          "欺骗"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：deceits"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky",
+        "toefl",
+        "gre"
+      ],
+      "bncRank": 14500,
+      "contemporaryRank": 15761
+    }
+  },
+  {
+    "id": "word_irrespective",
+    "word": "irrespective",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/.iri'spektiv/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "不顾的",
+          "无关的",
+          "没关系的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "ielts"
+      ],
+      "bncRank": null,
+      "contemporaryRank": 14501
+    }
+  },
+  {
+    "id": "word_stereotyped",
+    "word": "stereotyped",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'steriəjtaipt/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "用铅版印的",
+          "老一套的",
+          "套用老调的",
+          "千篇一律的",
+          "已成陈规的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去式：stereotyped",
+      "原形：stereotyped",
+      "原形变体：pd",
+      "过去分词：stereotyped"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky"
+      ],
+      "bncRank": 14543,
+      "contemporaryRank": 17812
+    }
+  },
+  {
+    "id": "word_reproach",
+    "word": "reproach",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/ri'prəutʃ/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "责备",
+          "耻辱\\nvt. 责备",
+          "申斥",
+          "使丢脸"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去式：reproached",
+      "复数：reproaches",
+      "过去分词：reproached",
+      "第三人称单数：reproaches",
+      "现在分词：reproaching"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 14678,
+      "contemporaryRank": 18288
+    }
+  },
+  {
+    "id": "word_panda",
+    "word": "panda",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'pændə/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "大熊猫",
+          "小熊猫"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：pandas"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "zk",
+        "gk",
+        "cet4",
+        "ky"
+      ],
+      "bncRank": 15519,
+      "contemporaryRank": 14691
+    }
+  },
+  {
+    "id": "word_malfunction",
+    "word": "malfunction",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/.mæl'fʌŋʃən/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "故障",
+          "失灵",
+          "疾病\\nvi. 发生故障",
+          "不起作用\\n[计] 故障"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：malfunctions",
+      "过去式：malfunctioned",
+      "现在分词：malfunctioning",
+      "过去分词：malfunctioned",
+      "第三人称单数：malfunctions"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl",
+        "gre"
+      ],
+      "bncRank": 19854,
+      "contemporaryRank": 14802
+    }
+  },
+  {
+    "id": "word_intelligible",
+    "word": "intelligible",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/in'telidʒəbl/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "可理解的",
+          "易理解的",
+          "纯概念性的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 14873,
+      "contemporaryRank": 17337
+    }
+  },
+  {
+    "id": "word_regenerate",
+    "word": "regenerate",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/ri'dʒenəreit/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "使再生",
+          "重建",
+          "革新\\nvi. 新生",
+          "再生\\na. 新生的",
+          "再生的\\n[计] 再生",
+          "重写"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "现在分词：regenerating",
+      "过去分词：regenerated",
+      "第三人称单数：regenerates",
+      "过去式：regenerated",
+      "复数：regenerates"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl"
+      ],
+      "bncRank": 15197,
+      "contemporaryRank": 14883
+    }
+  },
+  {
+    "id": "word_typist",
+    "word": "typist",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'taipist/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "打字员"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：typists"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "gk",
+        "cet4",
+        "cet6",
+        "ky"
+      ],
+      "bncRank": 14970,
+      "contemporaryRank": 22849
+    }
+  },
+  {
+    "id": "word_repent",
+    "word": "repent",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/ri'pent/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vi.",
+        "definitions": [
+          "后悔",
+          "懊悔",
+          "忏悔\\nvt. 后悔\\na. 匍匐生根的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去式：repented",
+      "过去分词：repented",
+      "第三人称单数：repents",
+      "现在分词：repenting"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 15104,
+      "contemporaryRank": 16583
+    }
+  },
+  {
+    "id": "word_circumference",
+    "word": "circumference",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/sə'kʌmfərəns/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "圆周",
+          "周缘",
+          "胸围\\n[医] 周缘",
+          "环状面"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：circumferences"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 15114,
+      "contemporaryRank": 15774
+    }
+  },
+  {
+    "id": "word_obsess",
+    "word": "obsess",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/əb'ses/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "迷住",
+          "使困扰"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "第三人称单数：obsesses",
+      "过去式：obsessed",
+      "过去分词：obsessed",
+      "现在分词：obsessing"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 33482,
+      "contemporaryRank": 15161
+    }
+  },
+  {
+    "id": "word_mutton",
+    "word": "mutton",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'mʌtn/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "羊肉"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：muttons"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "gk",
+        "cet4",
+        "cet6",
+        "ky",
+        "gre"
+      ],
+      "bncRank": 15305,
+      "contemporaryRank": 22179
+    }
+  },
+  {
+    "id": "word_perplex",
+    "word": "perplex",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/pə'pleks/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "使困惑",
+          "使复杂化",
+          "使为难\\n[法] 困惑",
+          "使复杂化",
+          "使纠缠不清"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去分词：perplexed",
+      "现在分词：perplexing",
+      "第三人称单数：perplexes",
+      "过去式：perplexed",
+      "复数：perplexes"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts"
+      ],
+      "bncRank": 18685,
+      "contemporaryRank": 15354
+    }
+  },
+  {
+    "id": "word_synchronize",
+    "word": "synchronize",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'siŋkrənaiz/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "使同步",
+          "使合拍\\nvi. 同时发生\\n[计] 同步"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去分词：synchronized",
+      "现在分词：synchronizing",
+      "过去式：synchronized",
+      "第三人称单数：synchronizes"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl",
+        "ielts"
+      ],
+      "bncRank": 23950,
+      "contemporaryRank": 15464
+    }
+  },
+  {
+    "id": "word_sightseeing",
+    "word": "sightseeing",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'saitsiːiŋ/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "观光",
+          "游览\\na. 观光的",
+          "游览的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "现在分词：sightseeing",
+      "原形：sightseeing",
+      "原形变体：i"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "gk",
+        "cet4",
+        "cet6",
+        "ky",
+        "ielts"
+      ],
+      "bncRank": 15550,
+      "contemporaryRank": 16109
+    }
+  },
+  {
+    "id": "word_plural",
+    "word": "plural",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'pluərəl/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "复数\\na. 复数的",
+          "两个以上的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：plurals"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky"
+      ],
+      "bncRank": 15661,
+      "contemporaryRank": 18732
+    }
+  },
+  {
+    "id": "word_decompose",
+    "word": "decompose",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/.diːkəm'pəuz/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "v.",
+        "definitions": [
+          "分解",
+          "(使)腐烂"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去分词：decomposed",
+      "第三人称单数：decomposes",
+      "现在分词：decomposing",
+      "过去式：decomposed"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 19254,
+      "contemporaryRank": 15704
+    }
+  },
+  {
+    "id": "word_badminton",
+    "word": "badminton",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'bædmintən/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "羽毛球运动"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "gk",
+        "cet4",
+        "cet6",
+        "ky",
+        "ielts"
+      ],
+      "bncRank": 15739,
+      "contemporaryRank": 20115
+    }
+  },
+  {
+    "id": "word_negro",
+    "word": "negro",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'niːgrəu/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "黑人\\na. 黑人的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：negros"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky"
+      ],
+      "bncRank": 15831,
+      "contemporaryRank": 16070
+    }
+  },
+  {
+    "id": "word_inverse",
+    "word": "inverse",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/in'vəːs/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "倒转的",
+          "相反的\\nn. 反向",
+          "反面\\n[计] 反白",
+          "反色"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：inverses"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "ky",
+        "toefl",
+        "gre"
+      ],
+      "bncRank": 15867,
+      "contemporaryRank": 16580
+    }
+  },
+  {
+    "id": "word_aural",
+    "word": "aural",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'ɒːrəl/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "耳的",
+          "听觉的",
+          "气氛的",
+          "气味的",
+          "光环的\\n[医] 耳的",
+          "先兆的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky"
+      ],
+      "bncRank": 21545,
+      "contemporaryRank": 15916
+    }
+  },
+  {
+    "id": "word_invert",
+    "word": "invert",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/in'vəːt/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "转化的\\nvt. 使反转",
+          "使颠倒",
+          "使转化\\nn. 颠倒的事物\\n[计] 倒置",
+          "反转"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "现在分词：inverting",
+      "复数：inverts",
+      "过去式：inverted",
+      "第三人称单数：inverts",
+      "过去分词：inverted"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 20592,
+      "contemporaryRank": 15967
+    }
+  },
+  {
+    "id": "word_normalization",
+    "word": "normalization",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/.nɒːməlai'zeiʃən/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "常态化",
+          "正常化",
+          "正规化\\n[化] 归一化",
+          "正态化",
+          "正火",
+          "正火处理"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky"
+      ],
+      "bncRank": 28490,
+      "contemporaryRank": 16091
+    }
+  },
+  {
+    "id": "word_dialog",
+    "word": "dialog",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'daiəlɒg/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "会话",
+          "对话\\n[计] 对话"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky"
+      ],
+      "bncRank": 29502,
+      "contemporaryRank": 16198
+    }
+  },
+  {
+    "id": "word_irrigate",
+    "word": "irrigate",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'irigeit/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "灌溉",
+          "冲洗伤口",
+          "使清新\\nvi. 灌溉"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去分词：irrigated",
+      "现在分词：irrigating",
+      "过去式：irrigated",
+      "第三人称单数：irrigates"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "gk",
+        "ky",
+        "toefl",
+        "gre"
+      ],
+      "bncRank": 26536,
+      "contemporaryRank": 16313
+    }
+  },
+  {
+    "id": "word_waken",
+    "word": "waken",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'weikn/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "唤醒",
+          "使觉醒",
+          "激发\\nvi. 觉醒",
+          "醒来"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去分词：wakened",
+      "过去式：wakened",
+      "现在分词：wakening",
+      "第三人称单数：wakens"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky"
+      ],
+      "bncRank": 16403,
+      "contemporaryRank": 21433
+    }
+  },
+  {
+    "id": "word_transcendental",
+    "word": "transcendental",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/.trænsen'dentl/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "卓越的",
+          "超凡的",
+          "先验的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "gre"
+      ],
+      "bncRank": 20189,
+      "contemporaryRank": 16575
+    }
+  },
+  {
+    "id": "word_longitude",
+    "word": "longitude",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'lɒndʒitjuːd/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "经度",
+          "经线\\n[电] 经度"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：longitudes"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts"
+      ],
+      "bncRank": 25761,
+      "contemporaryRank": 16823
+    }
+  },
+  {
+    "id": "word_xerox",
+    "word": "xerox",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'ziərɒks/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "v.",
+        "definitions": [
+          "静电复印"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：xeroxes",
+      "过去式：xeroxed"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky"
+      ],
+      "bncRank": 17172,
+      "contemporaryRank": 30041
+    }
+  },
+  {
+    "id": "word_snob",
+    "word": "snob",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/snɒb/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "势利的人",
+          "假内行"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：snobs",
+      "第三人称单数：snobs"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "gre"
+      ],
+      "bncRank": 19513,
+      "contemporaryRank": 17236
+    }
+  },
+  {
+    "id": "word_supersonic",
+    "word": "supersonic",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/.sjuːpə'sɒnik/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "超声波的\\n[医] 超声[波]的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "ielts"
+      ],
+      "bncRank": 23484,
+      "contemporaryRank": 17396
+    }
+  },
+  {
+    "id": "word_adverb",
+    "word": "adverb",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'ædvəːb/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "副词"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：adverbs"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "ky"
+      ],
+      "bncRank": 17521,
+      "contemporaryRank": 26238
+    }
+  },
+  {
+    "id": "word_zigzag",
+    "word": "zigzag",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'zigzæg/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "曲折线条",
+          "Z字形道路\\na. 之字形的",
+          "曲折的",
+          "锯齿形的\\nadv. 之字形地",
+          "曲折地",
+          "成锯齿形地\\nvt. 使成之字形",
+          "使曲折进行\\nvi. 成之字形",
+          "弯曲地走路"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去式：zigzagged",
+      "复数：zigzags",
+      "现在分词：zigzagging",
+      "第三人称单数：zigzags",
+      "过去分词：zigzagged"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl",
+        "gre"
+      ],
+      "bncRank": 22469,
+      "contemporaryRank": 17582
+    }
+  },
+  {
+    "id": "word_temperamental",
+    "word": "temperamental",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/.temprə'mentl/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "气质的",
+          "性格的",
+          "易兴奋的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky"
+      ],
+      "bncRank": 18556,
+      "contemporaryRank": 18395
+    }
+  },
+  {
+    "id": "word_obstinate",
+    "word": "obstinate",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'ɒbstinit/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "倔强的",
+          "顽固的",
+          "不让步的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 18767,
+      "contemporaryRank": 21852
+    }
+  },
+  {
+    "id": "word_innovate",
+    "word": "innovate",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'inəuveit/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vi.",
+        "definitions": [
+          "改革",
+          "创新"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去分词：innovated",
+      "第三人称单数：innovates",
+      "现在分词：innovating",
+      "过去式：innovated"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky"
+      ],
+      "bncRank": 20988,
+      "contemporaryRank": 18968
+    }
+  },
+  {
+    "id": "word_quench",
+    "word": "quench",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/kwentʃ/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "熄灭",
+          "结束",
+          "使冷却",
+          "将...淬火\\nvi. 熄灭",
+          "平息"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "现在分词：quenching",
+      "过去分词：quenched",
+      "过去式：quenched",
+      "第三人称单数：quenches"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 19371,
+      "contemporaryRank": 19110
+    }
+  },
+  {
+    "id": "word_ventilate",
+    "word": "ventilate",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'ventileit/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "使空气流通",
+          "使通风",
+          "公开讨论",
+          "公开\\n[医] 通风",
+          "换气"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去分词：ventilated",
+      "现在分词：ventilating",
+      "第三人称单数：ventilates",
+      "过去式：ventilated"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 19165,
+      "contemporaryRank": 23817
+    }
+  },
+  {
+    "id": "word_acrobat",
+    "word": "acrobat",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'ækrəbæt/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "表演特技者",
+          "杂技演员"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：acrobats",
+      "第三人称单数：acrobats"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "gre"
+      ],
+      "bncRank": 23985,
+      "contemporaryRank": 19213
+    }
+  },
+  {
+    "id": "word_sufficiency",
+    "word": "sufficiency",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/sə'fiʃənsi/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "充足",
+          "充分的数量",
+          "自负"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky"
+      ],
+      "bncRank": 19239,
+      "contemporaryRank": 24932
+    }
+  },
+  {
+    "id": "word_corrode",
+    "word": "corrode",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/kə'rəud/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "使腐蚀",
+          "侵蚀",
+          "破坏\\nvi. 被侵蚀",
+          "起腐蚀作用"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去分词：corroded",
+      "第三人称单数：corrodes",
+      "现在分词：corroding",
+      "过去式：corroded"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 20384,
+      "contemporaryRank": 19273
+    }
+  },
+  {
+    "id": "word_whitewash",
+    "word": "whitewash",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'hwaitwɒʃ/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "白色涂料",
+          "粉饰",
+          "得零分的惨败"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去分词：whitewashed",
+      "过去式：whitewashed",
+      "现在分词：whitewashing",
+      "复数：whitewashes",
+      "第三人称单数：whitewashes"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky"
+      ],
+      "bncRank": 19320,
+      "contemporaryRank": 20142
+    }
+  },
+  {
+    "id": "word_malign",
+    "word": "malign",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/mə'lain/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "有害的",
+          "恶性的",
+          "有恶意的\\nvt. 诽谤",
+          "说坏话"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去分词：maligned",
+      "过去式：maligned",
+      "现在分词：maligning",
+      "第三人称单数：maligns"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl",
+        "gre"
+      ],
+      "bncRank": 22114,
+      "contemporaryRank": 19612
+    }
+  },
+  {
+    "id": "word_lubricate",
+    "word": "lubricate",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'luːbrikeit/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "使润滑",
+          "涂油\\nvi. 润滑"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去分词：lubricated",
+      "现在分词：lubricating",
+      "第三人称单数：lubricates",
+      "过去式：lubricated",
+      "复数：lubricates"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 19781,
+      "contemporaryRank": 19873
+    }
+  },
+  {
+    "id": "word_invariable",
+    "word": "invariable",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/in'vєəriəbl/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "不变的东西",
+          "常数\\na. 不变的",
+          "常数的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl"
+      ],
+      "bncRank": 20215,
+      "contemporaryRank": 32543
+    }
+  },
+  {
+    "id": "word_virtuosity",
+    "word": "virtuosity",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/.vəːtju'ɒsiti/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "精湛技巧",
+          "对古董等的爱好"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "gre"
+      ],
+      "bncRank": 24751,
+      "contemporaryRank": 20404
+    }
+  },
+  {
+    "id": "word_punctual",
+    "word": "punctual",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'pəŋktʃuəl/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "准时的",
+          "守时的",
+          "点状的",
+          "中肯的\\n[经] 准时的",
+          "不误期的",
+          "准时"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "gk",
+        "cet4",
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts"
+      ],
+      "bncRank": 20448,
+      "contemporaryRank": 25334
+    }
+  },
+  {
+    "id": "word_dictation",
+    "word": "dictation",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/dik'teiʃən/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "听写",
+          "口述",
+          "命令"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：dictations"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "gk",
+        "cet4",
+        "cet6",
+        "ky",
+        "ielts"
+      ],
+      "bncRank": 20641,
+      "contemporaryRank": 21756
+    }
+  },
+  {
+    "id": "word_overpass",
+    "word": "overpass",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'əuvəpɑ:s/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "天桥",
+          "旱桥",
+          "立交桥\\nvt. 超越",
+          "胜过",
+          "通过",
+          "忽略",
+          "侵犯"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：overpasses"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky"
+      ],
+      "bncRank": null,
+      "contemporaryRank": 20685
+    }
+  },
+  {
+    "id": "word_neurology",
+    "word": "neurology",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/nju'rɒlədʒi/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "神经病学\\n[医] 神经病学"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "gre"
+      ],
+      "bncRank": 33919,
+      "contemporaryRank": 21144
+    }
+  },
+  {
+    "id": "word_thrifty",
+    "word": "thrifty",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'θrifti/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "节俭的",
+          "兴旺的",
+          "繁茂的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl",
+        "gre"
+      ],
+      "bncRank": 21793,
+      "contemporaryRank": 21446
+    }
+  },
+  {
+    "id": "word_instrumentalist",
+    "word": "instrumentalist",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/.instru'mentəlist. instrə-/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "工具主义者",
+          "乐器演奏家"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：instrumentalists"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl",
+        "gre"
+      ],
+      "bncRank": 25456,
+      "contemporaryRank": 21815
+    }
+  },
+  {
+    "id": "word_typhoon",
+    "word": "typhoon",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/tai'fuːn/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "台风"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：typhoons"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "gk",
+        "cet4",
+        "cet6",
+        "ky",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 25972,
+      "contemporaryRank": 21835
+    }
+  },
+  {
+    "id": "word_deform",
+    "word": "deform",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/di'fɒːm/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "使残缺",
+          "使变形\\nvi. 变形"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "现在分词：deforming",
+      "第三人称单数：deforms",
+      "过去分词：deformed",
+      "复数：deforms",
+      "过去式：deformed"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl"
+      ],
+      "bncRank": 24434,
+      "contemporaryRank": 23023
+    }
+  },
+  {
+    "id": "word_quart",
+    "word": "quart",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/kwɒːt/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "夸脱\\n[医] 夸脱(四分之一加仑)"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：quarts"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky"
+      ],
+      "bncRank": 23170,
+      "contemporaryRank": null
+    }
+  },
+  {
+    "id": "word_congratulation",
+    "word": "congratulation",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/kən.grætʃə'leiʃən/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "祝贺",
+          "恭喜"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "gk",
+        "cet4",
+        "cet6",
+        "ky",
+        "toefl"
+      ],
+      "bncRank": 23287,
+      "contemporaryRank": null
+    }
+  },
+  {
+    "id": "word_industrialize",
+    "word": "industrialize",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/in'dʌstriəlaiz/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "使工业化\\nvi. 实现工业化"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "现在分词：industrializing",
+      "过去分词：industrialized",
+      "第三人称单数：industrializes",
+      "过去式：industrialized"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky"
+      ],
+      "bncRank": 36170,
+      "contemporaryRank": 23391
+    }
+  },
+  {
+    "id": "word_distill",
+    "word": "distill",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/dis'til/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "蒸馏\\nvi. 滴下"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "第三人称单数：distills",
+      "现在分词：distilling",
+      "过去式：distilled",
+      "过去分词：distilled"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl",
+        "gre"
+      ],
+      "bncRank": null,
+      "contemporaryRank": 23567
+    }
+  },
+  {
+    "id": "word_gramme",
+    "word": "gramme",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/græm/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "克\\n[医] 克"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：grammes"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky"
+      ],
+      "bncRank": 24305,
+      "contemporaryRank": null
+    }
+  },
+  {
+    "id": "word_tropic",
+    "word": "tropic",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'trɒpik/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "回归线"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "ielts"
+      ],
+      "bncRank": 38589,
+      "contemporaryRank": 26288
+    }
+  },
+  {
+    "id": "word_preposition",
+    "word": "preposition",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/.prepə'ziʃən/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "前置词",
+          "介词"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：prepositions"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 26713,
+      "contemporaryRank": 27652
+    }
+  },
+  {
+    "id": "word_centigrade",
+    "word": "centigrade",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'sentigreid/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "百分度的",
+          "摄氏的\\n[医] 百分度"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "gk",
+        "cet4",
+        "cet6",
+        "ky",
+        "toefl",
+        "gre"
+      ],
+      "bncRank": 27004,
+      "contemporaryRank": null
+    }
+  },
+  {
+    "id": "word_civilize",
+    "word": "civilize",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'sivilaiz/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "使开化",
+          "使文明\\nvi. 变文明"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去式：civilized",
+      "过去分词：civilized",
+      "现在分词：civilizing",
+      "第三人称单数：civilizes"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet4",
+        "cet6",
+        "ky"
+      ],
+      "bncRank": 37707,
+      "contemporaryRank": 27624
+    }
+  },
+  {
+    "id": "word_datum",
+    "word": "datum",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'deitəm/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "论据",
+          "材料",
+          "资料",
+          "已知数\\n[医] 材料",
+          "资料",
+          "论据"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：datums"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky"
+      ],
+      "bncRank": null,
+      "contemporaryRank": 28458
+    }
+  },
+  {
+    "id": "word_bipedal",
+    "word": "bipedal",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'bai,pedəl,bai'pe-/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "",
+        "definitions": [
+          "[医] 两足的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：bipedals"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl"
+      ],
+      "bncRank": null,
+      "contemporaryRank": 29097
+    }
+  },
+  {
+    "id": "word_bewilder",
+    "word": "bewilder",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/bi'wildə/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "使迷惑",
+          "使不知所措"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去分词：bewildered",
+      "过去式：bewildered",
+      "第三人称单数：bewilders",
+      "现在分词：bewildering",
+      "复数：bewilders"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "toefl",
+        "ielts",
+        "gre"
+      ],
+      "bncRank": 34058,
+      "contemporaryRank": 30215
+    }
+  },
+  {
+    "id": "word_genealogist",
+    "word": "genealogist",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/.dʒiːni'ælədʒist/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "系谱学者",
+          "系谱专家"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：genealogists"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky"
+      ],
+      "bncRank": 42598,
+      "contemporaryRank": 32076
+    }
+  },
+  {
+    "id": "word_situated",
+    "word": "situated",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'sitjueitid/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "位于...的",
+          "坐落在...的",
+          "处于某种境地的\\n[法] 坐落...的",
+          "位于...的",
+          "处于某种境地的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "原形变体：dp",
+      "原形：situate",
+      "过去分词：situated"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky",
+        "ielts"
+      ],
+      "bncRank": null,
+      "contemporaryRank": 35216
+    }
+  },
+  {
+    "id": "word_cigaret",
+    "word": "cigaret",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/,si^ə'ret,'si-/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "纸烟",
+          "卷烟",
+          "香烟"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "cet6",
+        "ky"
+      ],
+      "bncRank": null,
+      "contemporaryRank": 36140
+    }
+  },
+  {
+    "id": "word_maltreat",
+    "word": "maltreat",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/mæl'triːt/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "虐待",
+          "滥用\\n[法] 粗暴对待",
+          "虐待",
+          "乱用"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "过去分词：maltreated",
+      "过去式：maltreated",
+      "现在分词：maltreating",
+      "第三人称单数：maltreats"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "ielts"
+      ],
+      "bncRank": 37045,
+      "contemporaryRank": 36572
+    }
+  },
+  {
+    "id": "word_administrate",
+    "word": "administrate",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/əd'ministreit/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "vt.",
+        "definitions": [
+          "管理",
+          "支配"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "现在分词：administrating",
+      "第三人称单数：administrates",
+      "过去分词：administrated",
+      "复数：administrates",
+      "过去式：administrated"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky",
+        "toefl"
+      ],
+      "bncRank": 46634,
+      "contemporaryRank": 36644
+    }
+  },
+  {
+    "id": "word_goodby",
+    "word": "goodby",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/.ɡud'bai/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "int.",
+        "definitions": [
+          "再见（等于goodbye）"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky"
+      ],
+      "bncRank": null,
+      "contemporaryRank": 37659
+    }
+  },
+  {
+    "id": "word_retrospection",
+    "word": "retrospection",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/.retrə'spekʃən/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "回顾",
+          "追忆",
+          "反省\\n[医] 追想",
+          "回忆"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [
+      "复数：retrospections"
+    ],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky"
+      ],
+      "bncRank": 41540,
+      "contemporaryRank": 42499
+    }
+  },
+  {
+    "id": "word_passerby",
+    "word": "passerby",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'pæsə'bai/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "n.",
+        "definitions": [
+          "过路人",
+          "行人"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky"
+      ],
+      "bncRank": null,
+      "contemporaryRank": null
+    }
+  },
+  {
+    "id": "word_thriftless",
+    "word": "thriftless",
+    "importance": "high-frequency",
+    "phonetics": {
+      "uk": "/'θriftlis/",
+      "us": ""
+    },
+    "audio": {
+      "uk": "",
+      "us": ""
+    },
+    "senses": [
+      {
+        "partOfSpeech": "adj.",
+        "definitions": [
+          "不节俭的",
+          "浪费的",
+          "无用的"
+        ]
+      }
+    ],
+    "collocations": [],
+    "morphology": [],
+    "memoryTips": [],
+    "synonyms": [],
+    "antonyms": [],
+    "confusables": [],
+    "examExamples": [],
+    "sources": [
+      {
+        "sourceId": "ecdict-bc015ed2",
+        "fields": [
+          "word",
+          "phonetics.uk",
+          "senses",
+          "morphology",
+          "importance"
+        ]
+      }
+    ],
+    "metadata": {
+      "ecdictTags": [
+        "ky"
+      ],
+      "bncRank": null,
+      "contemporaryRank": null
+    }
+  }
+]
