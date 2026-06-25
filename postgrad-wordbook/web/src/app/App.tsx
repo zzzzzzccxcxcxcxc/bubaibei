@@ -1,4 +1,4 @@
-import { useCallback, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import type { Route } from './routes';
 import { HomePage } from '../pages/HomePage';
 import { LibraryPage } from '../pages/LibraryPage';
@@ -24,25 +24,29 @@ type AppProps = {
   };
 };
 
+function loadStates(): Map<string, WordState> {
+  try {
+    const raw = localStorage.getItem('pwa-states');
+    if (raw) return new Map(Object.entries(JSON.parse(raw)));
+  } catch (_) {}
+  return new Map();
+}
+
+function saveStates(states: Map<string, WordState>) {
+  try { localStorage.setItem('pwa-states', JSON.stringify(Object.fromEntries(states))); } catch (_) {}
+}
+
 export function App({ fetchJson, learningRepo }: AppProps = {}) {
   const [route, setRoute] = useState<Route>('home');
   const [routeStack, setRouteStack] = useState<Route[]>([]);
-  const [appState, setAppState] = useState<AppState>(() => {
-    try {
-      const raw = localStorage.getItem('pwa-app-state');
-      if (raw) {
-        const saved = JSON.parse(raw);
-        return {
-          words: saved.words || [],
-          states: new Map(Object.entries(saved.states || {})),
-          activeLibraryId: saved.activeLibraryId || null,
-          message: null,
-        };
-      }
-    } catch (_) {}
-    return { words: [], states: new Map(), activeLibraryId: null, message: null };
+  const [appState, setAppState] = useState<AppState>({
+    words: [],
+    states: loadStates(),
+    activeLibraryId: localStorage.getItem('pwa-library') || null,
+    message: null,
   });
-  // Quiz state
+  const didAutoImport = useRef(false);
+
   const [quizSetup, setQuizSetup] = useState<{ type: 'en-to-zh' | 'zh-to-en'; count: number } | null>(null);
   const [quizResult, setQuizResult] = useState<{ total: number; correct: number; accuracy: number; wrongWordIds: string[] } | null>(null);
 
@@ -67,10 +71,24 @@ export function App({ fetchJson, learningRepo }: AppProps = {}) {
       beginImport: async (libraryId: string) => { setAppState((s) => ({ ...s, message: '正在载入 ' + libraryId + '...' })); },
       commitImport: async (_libraryId: string, payload: unknown) => {
         const data = payload as { shardData: Array<Array<WordEntry>> };
-        setAppState((s) => ({ ...s, words: data.shardData.flat(), activeLibraryId: _libraryId, message: null }));
+        const words = data.shardData.flat();
+        localStorage.setItem('pwa-library', _libraryId);
+        setAppState((s) => ({ ...s, words, activeLibraryId: _libraryId, message: null }));
       },
     },
   });
+
+  // Auto-import on mount if library was saved
+  useEffect(() => {
+    if (didAutoImport.current) return;
+    didAutoImport.current = true;
+    const saved = localStorage.getItem('pwa-library');
+    if (saved) {
+      contentService.importLibrary(saved).catch(() => {
+        localStorage.removeItem('pwa-library');
+      });
+    }
+  }, []);
 
   const handleImport = useCallback(async (libraryId: string) => {
     try { await contentService.importLibrary(libraryId); }
@@ -82,6 +100,7 @@ export function App({ fetchJson, learningRepo }: AppProps = {}) {
     setAppState((s) => {
       const next = new Map(s.states);
       next.set(wordId, { wordId, familiarity, updatedAt: now });
+      saveStates(next);
       return { ...s, states: next };
     });
     if (learningRepo) await learningRepo.setFamiliarity(wordId, familiarity, now);
@@ -123,7 +142,7 @@ export function App({ fetchJson, learningRepo }: AppProps = {}) {
     <div className="app-shell">
       <header className="app-nav">
         {route !== 'home' && route !== 'quiz-session' ? (
-          <button className="app-nav__back" onClick={goBack}>‹ 返回</button>
+          <button className="app-nav__back" onClick={goBack}>back</button>
         ) : <div className="app-nav__spacer" />}
         <h1 className="app-nav__title">{title}</h1>
         <div className="app-nav__spacer" />
@@ -133,8 +152,7 @@ export function App({ fetchJson, learningRepo }: AppProps = {}) {
 
       <main className="page">
         {route === 'home' && (
-          <HomePage counts={counts} activeLibraryId={appState.activeLibraryId} wordCount={appState.words.length}
-            onNavigate={navigate} />
+          <HomePage counts={counts} activeLibraryId={appState.activeLibraryId} wordCount={appState.words.length} onNavigate={navigate} />
         )}
         {route === 'libraries' && (
           <LibraryPage onImport={handleImport} activeLibraryId={appState.activeLibraryId} />
@@ -152,7 +170,7 @@ export function App({ fetchJson, learningRepo }: AppProps = {}) {
           <QuizPage words={appState.words} activeLibraryId={appState.activeLibraryId} onStart={handleQuizStart} />
         )}
         {route === 'quiz-session' && quizSetup && (
-          <QuizSessionPage words={appState.words} setup={quizSetup} onDone={handleQuizDone} onBack={goBack} />
+          <QuizSessionPage words={appState.words} setup={quizSetup} onDone={handleQuizDone} />
         )}
         {route === 'quiz-result' && quizResult && (
           <QuizResultPage result={quizResult} words={appState.words} onMark={markWord} onRetry={() => setRoute('quiz')} onHome={() => setRoute('home')} />
@@ -163,28 +181,25 @@ export function App({ fetchJson, learningRepo }: AppProps = {}) {
   );
 }
 
-/* Inline sub-pages */
-function QuizSessionPage({ words, setup, onDone, onBack }: {
+function QuizSessionPage({ words, setup, onDone }: {
   words: WordEntry[]; setup: { type: 'en-to-zh' | 'zh-to-en'; count: number };
   onDone: (r: { total: number; correct: number; accuracy: number; wrongWordIds: string[] }) => void;
-  onBack: () => void;
 }) {
   const [idx, setIdx] = useState(0);
   const [answers, setAnswers] = useState<Array<{ wordId: string; correct: boolean }>>([]);
   const [selected, setSelected] = useState<number | null>(null);
   const [revealed, setRevealed] = useState(false);
 
-  // Build questions once
   const [questions] = useState(() => {
-    const { buildQuestion } = require('../domain/quiz');
+    const qm = require('../domain/quiz');
     const pool = [...words].sort(() => Math.random() - 0.5).slice(0, setup.count);
-    return pool.map((w) => buildQuestion({ type: setup.type, target: w, pool: words, random: Math.random }));
+    return pool.map((w: WordEntry) => qm.buildQuestion({ type: setup.type, target: w, pool: words, random: Math.random }));
   });
 
   const q = questions[idx];
   if (!q) {
-    const { scoreSession } = require('../domain/quiz');
-    onDone(scoreSession(answers));
+    const qm2 = require('../domain/quiz');
+    onDone(qm2.scoreSession(answers));
     return null;
   }
 
@@ -197,8 +212,8 @@ function QuizSessionPage({ words, setup, onDone, onBack }: {
 
   const next = () => {
     if (idx + 1 >= questions.length) {
-      const { scoreSession } = require('../domain/quiz');
-      onDone(scoreSession([...answers]));
+      const qm3 = require('../domain/quiz');
+      onDone(qm3.scoreSession([...answers]));
     } else {
       setIdx(idx + 1);
       setSelected(null);
@@ -257,7 +272,7 @@ function QuizResultPage({ result, words, onMark, onRetry, onHome }: {
           </div>
         </div>
       ) : (
-        <div className="card result-empty">本轮没有错词 🎉</div>
+        <div className="card result-empty">本轮没有错词</div>
       )}
       <div className="result-actions">
         <button className="btn btn--danger" onClick={onRetry}>再测一组</button>
