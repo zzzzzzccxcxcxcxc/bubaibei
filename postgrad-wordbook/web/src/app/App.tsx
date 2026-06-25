@@ -27,8 +27,20 @@ type AppProps = {
 export function App({ fetchJson, learningRepo }: AppProps = {}) {
   const [route, setRoute] = useState<Route>('home');
   const [routeStack, setRouteStack] = useState<Route[]>([]);
-  const [appState, setAppState] = useState<AppState>({
-    words: [], states: new Map(), activeLibraryId: null, message: null,
+  const [appState, setAppState] = useState<AppState>(() => {
+    try {
+      const raw = localStorage.getItem('pwa-app-state');
+      if (raw) {
+        const saved = JSON.parse(raw);
+        return {
+          words: saved.words || [],
+          states: new Map(Object.entries(saved.states || {})),
+          activeLibraryId: saved.activeLibraryId || null,
+          message: null,
+        };
+      }
+    } catch (_) {}
+    return { words: [], states: new Map(), activeLibraryId: null, message: null };
   });
   // Quiz state
   const [quizSetup, setQuizSetup] = useState<{ type: 'en-to-zh' | 'zh-to-en'; count: number } | null>(null);

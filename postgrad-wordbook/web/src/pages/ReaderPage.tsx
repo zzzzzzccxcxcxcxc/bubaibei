@@ -11,7 +11,7 @@ export function ReaderPage({ words, states, onMark }: {
 }) {
   const [query, setQuery] = useState('');
   const [letter, setLetter] = useState('');
-  const [familiarityFilter, setFamiliarityFilter] = useState<Familiarity[]>(['review', 'unknown']);
+  const [familiarityFilter, setFamiliarityFilter] = useState<Familiarity[]>([]);
   const listRef = useRef<HTMLDivElement>(null);
 
   const indexById = useMemo(() => new Map(words.map((w) => ({
