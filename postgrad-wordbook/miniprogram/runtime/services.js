@@ -16,11 +16,15 @@ const { createReaderService } = require('../services/reader-service');
 const {
   createAudioCacheService,
 } = require('../services/audio-cache-service');
+const {
+  createBundledProvider,
+} = require('../services/bundled-provider');
 
 function createServices(wxApi) {
   const storage = createWxStorage(wxApi);
   const files = createWxFiles(wxApi);
   const cloud = createWxCloud(wxApi);
+  const bundledProvider = createBundledProvider(wxApi);
   const learningRepository = createLearningRepository(storage);
   const progressRepository = createProgressRepository(storage);
   const libraryRepository = createLibraryRepository(storage, files);
@@ -30,37 +34,47 @@ function createServices(wxApi) {
   });
   const libraryService = createLibraryService({
     cloud,
+    bundledProvider,
     files,
     repository: libraryRepository,
     onActivated: (libraryId) => readerService.clearLibraryCache(libraryId),
     onRemoved: (libraryId) => readerService.clearLibraryCache(libraryId),
   });
-  const player = createWxAudio(wxApi, files);
-  const metadata = {
-    async getAudioFileId(wordId, accent) {
-      const installed = await libraryService.listInstalledLibraries();
-      for (const library of installed) {
-        if (!library.manifest?.wordIds?.includes(wordId)) continue;
-        const opened = await readerService.openLibrary(library.libraryId);
-        const audioName = opened.wordsById.get(wordId)?.audio?.[accent];
-        if (!audioName) continue;
-        const asset = library.manifest.assets?.find(
-          (item) => item.name === audioName
-        );
-        if (asset?.fileId) return asset.fileId;
-      }
-      return '';
-    },
-  };
-  const audioCacheService = createAudioCacheService({
-    cloud,
-    files,
-    metadata,
-    player,
-    storage,
-  });
+
+  let audioCacheService = null;
+  try {
+    const player = createWxAudio(wxApi, files);
+    const metadata = {
+      async getAudioFileId(wordId, accent) {
+        const installed = await libraryService.listInstalledLibraries();
+        for (const library of installed) {
+          if (!library.manifest?.wordIds?.includes(wordId)) continue;
+          const opened = await readerService.openLibrary(library.libraryId);
+          const audioName = opened.wordsById.get(wordId)?.audio?.[accent];
+          if (!audioName) continue;
+          if (bundledProvider.isBundled(library.libraryId)) return '';
+          const asset = library.manifest.assets?.find(
+            (item) => item.name === audioName
+          );
+          if (asset?.fileId) return asset.fileId;
+        }
+        return '';
+      },
+    };
+    audioCacheService = createAudioCacheService({
+      cloud,
+      files,
+      metadata,
+      player,
+      storage,
+    });
+  } catch (_error) {
+    // Audio unavailable - app works fine without it
+  }
+
   return {
     cloud,
+    bundledProvider,
     files,
     storage,
     learningRepository,

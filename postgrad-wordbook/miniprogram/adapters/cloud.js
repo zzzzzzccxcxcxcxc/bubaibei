@@ -1,26 +1,28 @@
 function createWxCloud(wxApi) {
-  async function callManifest(data = {}) {
-    const result = await wxApi.cloud.callFunction({
-      name: 'getLibraryManifest',
-      data,
-    });
-    return result.result;
-  }
-
   return {
     async listManifests() {
-      const result = await callManifest();
-      return result.libraries || [];
+      try {
+        var result = await wxApi.cloud.callFunction({
+          name: 'getLibraryManifest',
+          data: {},
+        });
+        return (result.result && result.result.libraries) ? result.result.libraries : [];
+      } catch (_e) {
+        return [];
+      }
     },
 
     async getManifest(libraryId) {
-      const result = await callManifest({ libraryId });
-      if (!result.library) throw new Error(`LIBRARY_NOT_FOUND:${libraryId}`);
-      return result.library;
+      var result = await wxApi.cloud.callFunction({
+        name: 'getLibraryManifest',
+        data: { libraryId: libraryId },
+      });
+      if (result.result && result.result.library) return result.result.library;
+      throw new Error('LIBRARY_NOT_FOUND:' + libraryId);
     },
 
     async download(fileId) {
-      const result = await wxApi.cloud.downloadFile({ fileID: fileId });
+      var result = await wxApi.cloud.downloadFile({ fileID: fileId });
       return result.tempFilePath;
     },
   };

@@ -8,16 +8,19 @@ if (!fs.existsSync(manifestPath)) {
 }
 
 const publicContentDir = path.join(ROOT, 'web', 'public', 'content');
-const stageDir = path.join(ROOT, 'web', 'public', '.content-stage');
-const oldDir = path.join(ROOT, 'web', 'public', '.content-old');
-fs.rmSync(stageDir, { recursive: true, force: true });
-fs.rmSync(oldDir, { recursive: true, force: true });
-fs.mkdirSync(path.dirname(publicContentDir), { recursive: true });
-fs.cpSync(DIST_DIR, stageDir, { recursive: true });
-if (fs.existsSync(publicContentDir)) {
-  fs.renameSync(publicContentDir, oldDir);
-}
-fs.renameSync(stageDir, publicContentDir);
-fs.rmSync(oldDir, { recursive: true, force: true });
 
+// Remove old content directly if possible; fall back to overwriting files
+if (fs.existsSync(publicContentDir)) {
+  try {
+    fs.rmSync(publicContentDir, { recursive: true, force: true });
+  } catch {
+    // If remove fails (file lock on Windows), overwrite individual files
+    fs.cpSync(DIST_DIR, publicContentDir, { recursive: true, force: true });
+    console.log(`Updated PWA content at ${path.relative(ROOT, publicContentDir)}.`);
+    process.exit(0);
+  }
+}
+
+fs.mkdirSync(path.dirname(publicContentDir), { recursive: true });
+fs.cpSync(DIST_DIR, publicContentDir, { recursive: true });
 console.log(`Prepared PWA content at ${path.relative(ROOT, publicContentDir)}.`);

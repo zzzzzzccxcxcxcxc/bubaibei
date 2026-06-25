@@ -99,3 +99,19 @@ npm run cloud:prepare
 - 确认内容来源、音频许可和云存储 fileID 均已填写。
 
 微信官方建议使用开发者工具 CLI 或 `miniprogram-ci` 做自动预览/上传；这两种方式都需要真实 AppID、登录状态或代码上传私钥。
+
+## 自用 PWA
+
+如果暂时不上传微信小程序，可以先使用 PWA 版本：
+
+运行：`npm run content:build`
+
+运行：`npm run web:content`
+
+运行：`npm run web:dev`
+
+手机访问开发机局域网地址后，可在 Safari 或 Chrome 中添加到主屏幕。正式自用部署时运行：
+
+运行：`npm run web:build`
+
+静态产物位于 `web/dist/`，可部署到任意静态服务器。

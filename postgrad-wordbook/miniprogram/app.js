@@ -1,6 +1,6 @@
-const { createWxStorage } = require('./adapters/storage');
-const { createServices } = require('./runtime/services');
-const { createMigrationService } = require('./services/migration-service');
+var createWxStorage = require('./adapters/storage').createWxStorage;
+var createServices = require('./runtime/services').createServices;
+var createMigrationService = require('./services/migration-service').createMigrationService;
 
 App({
   globalData: {
@@ -10,11 +10,8 @@ App({
   },
 
   async onLaunch() {
-    if (wx.cloud) {
-      wx.cloud.init({ traceUser: true });
-    }
     this.globalData.services = createServices(wx);
-    const storage = createWxStorage(wx);
+    var storage = createWxStorage(wx);
     try {
       await createMigrationService(storage).migrate();
     } catch (error) {
@@ -27,6 +24,6 @@ App({
   },
 
   onHide() {
-    this.globalData.services?.audioCacheService?.stop();
+    this.globalData.services && this.globalData.services.audioCacheService && this.globalData.services.audioCacheService.stop();
   },
 });

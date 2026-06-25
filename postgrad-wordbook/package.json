@@ -17,7 +17,9 @@
     "web:content": "node scripts/prepare-web-content.mjs",
     "web:build": "npm run content:build && npm run web:content && npm --prefix web run build",
     "web:test": "npm run content:build && npm run web:content && npm --prefix web run test:run",
-    "web:preview": "npm --prefix web run preview"
+    "web:preview": "npm --prefix web run preview",
+    "content:bundle": "node scripts/bundle-content.mjs",
+    "miniapp:build": "npm run content:build && npm run content:bundle"
   },
   "devDependencies": {
     "csv-parse": "^6.2.1",

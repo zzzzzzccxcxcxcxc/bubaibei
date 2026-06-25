@@ -9,6 +9,18 @@
     "pages/quiz-result/index",
     "pages/settings/index"
   ],
+  "subpackages": [
+    {
+      "root": "bundled-core",
+      "name": "core",
+      "pages": []
+    },
+    {
+      "root": "bundled-hf",
+      "name": "hf",
+      "pages": []
+    }
+  ],
   "window": {
     "navigationBarTitleText": "考研英语词书",
     "navigationBarBackgroundColor": "#f7f1e7",
