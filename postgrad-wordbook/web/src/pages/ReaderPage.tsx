@@ -15,7 +15,7 @@ export function ReaderPage({ words, states, onMark }: {
   const listRef = useRef<HTMLDivElement>(null);
 
   const indexById = useMemo(() => new Map(words.map((w) => ({
-    id: w.id, word: w.word, initial: w.initial,
+    id: w.id, word: w.word, initial: w.initial || w.word.charAt(0).toUpperCase(),
     senseKeywords: w.senses.flatMap((s) => s.definitions),
     partOfSpeech: w.senses.map((s) => s.partOfSpeech),
   })).map((e) => [e.id, e])), [words]);
